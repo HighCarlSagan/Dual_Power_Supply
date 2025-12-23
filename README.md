@@ -78,13 +78,10 @@ Key components:
 - IoT device power management
 - Prototyping and development boards
 
-## License
-
-[Add your license here - e.g., MIT, GPL, CERN-OHL, or "All Rights Reserved"]
 
 ## Author
 
-[Your name/handle]
+Mayank S
 
 ## Version History
 
