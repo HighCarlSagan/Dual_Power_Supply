@@ -1,0 +1,33 @@
+# KiCad backups and caches
+*-backups/
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+*.bak
+*.bck
+*~
+_autosave-*
+*.kicad_pcb-bak
+*.sch-bak
+
+# Build outputs
+# gerbers/
+# *.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor history folders
+.history/
+.vscode/
+.idea/
+
+# Git
+.git/
