@@ -2,8 +2,8 @@
 	(version "E")
 	(design
 		(source "/home/carl/Projects/Hardware/universal-psu/universal-psu.kicad_sch")
-		(date "2025-12-24T22:41:06+0530")
-		(tool "Eeschema 9.99.0-4498-ga2657db5e5")
+		(date "2025-12-25T01:45:06+0530")
+		(tool "Eeschema 9.99.0-4546-gb76221958b")
 		(sheet
 			(number "1")
 			(name "/")
@@ -505,6 +505,238 @@
 						)
 						(pin
 							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "5V1")
+			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "b54a82bb-446f-4ae1-93e7-e234f40558a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "5V_FB1")
+			(value "FB")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "d4573719-a890-49b8-ac10-b6dea185a24b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "5V_RT1")
+			(value "RT")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "abb703b2-14fb-4d75-9ff2-281af7ed0811")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "12V1")
+			(value "12V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "c237a16e-aed4-410f-a63c-8b37fe2ed3bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -1513,6 +1745,180 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "GND1")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "88d21920-ac2e-4cd9-ad57-537c25d6ae2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "GND2")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "559066e9-0b51-4fc9-b87e-bf80589f69ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "GND3")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "22b814f9-79dc-4134-970b-343353191731")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -2557,355 +2963,7 @@
 			)
 		)
 		(comp
-			(ref "TP1")
-			(value "12V")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "c237a16e-aed4-410f-a63c-8b37fe2ed3bd")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP2")
-			(value "GND")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "88d21920-ac2e-4cd9-ad57-537c25d6ae2e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP3")
-			(value "FB")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "d4573719-a890-49b8-ac10-b6dea185a24b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP4")
-			(value "GND")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "559066e9-0b51-4fc9-b87e-bf80589f69ad")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP5")
-			(value "RT")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "abb703b2-14fb-4d75-9ff2-281af7ed0811")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP6")
-			(value "GND")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "22b814f9-79dc-4134-970b-343353191731")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP7")
+			(ref "3v3")
 			(value "5V")
 			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
 			(description "test point")
@@ -2932,11 +2990,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -2947,10 +3005,184 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
 			)
-			(tstamps "b54a82bb-446f-4ae1-93e7-e234f40558a2")
+			(tstamps "203712da-4b7a-4184-a216-84ee2c630414")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "3v3_FB1")
+			(value "FB")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "5c079929-2002-4667-9fc2-928fdc54f7c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "3v3_RT1")
+			(value "RT")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "8b5d173c-52e8-4bdc-8029-71b7ce225abb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "12V2")
+			(value "12V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "8dca7a5a-0a19-452b-9bf4-f1a701570924")
 			(units
 				(unit
 					(name "A")
@@ -3965,6 +4197,180 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "GND4")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "c1abccb4-342e-4885-b939-805a0b37cb65")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "GND5")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "fe443303-f9f6-4040-b68d-69886e828ac5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "GND6")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "b38b146b-1527-49b8-9446-36cbd5442727")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -5001,412 +5407,6 @@
 				)
 			)
 		)
-		(comp
-			(ref "TP8")
-			(value "12V")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "8dca7a5a-0a19-452b-9bf4-f1a701570924")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP9")
-			(value "GND")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "c1abccb4-342e-4885-b939-805a0b37cb65")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP10")
-			(value "FB")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "5c079929-2002-4667-9fc2-928fdc54f7c4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP11")
-			(value "GND")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "fe443303-f9f6-4040-b68d-69886e828ac5")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP12")
-			(value "RT")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "8b5d173c-52e8-4bdc-8029-71b7ce225abb")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP13")
-			(value "GND")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "b38b146b-1527-49b8-9446-36cbd5442727")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP14")
-			(value "5V")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "203712da-4b7a-4184-a216-84ee2c630414")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
 	)
 	(groups)
 	(libparts
@@ -5827,6 +5827,12 @@
 			(name "+3V3")
 			(class "Default")
 			(node
+				(ref "3v3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "C17")
 				(pin "1")
 				(pintype "passive")
@@ -5898,9 +5904,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "TP14")
+				(ref "R8")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "passive")
 			)
 		)
@@ -5908,6 +5913,12 @@
 			(code "2")
 			(name "+5V")
 			(class "Default")
+			(node
+				(ref "5V1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
 			(node
 				(ref "C11")
 				(pin "1")
@@ -5974,22 +5985,23 @@
 				(pin "1")
 				(pintype "passive")
 			)
-			(node
-				(ref "R8")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP7")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
 		)
 		(net
 			(code "3")
 			(name "+12V")
 			(class "Default")
+			(node
+				(ref "12V1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "12V2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
 			(node
 				(ref "C1")
 				(pin "1")
@@ -6049,18 +6061,6 @@
 				(pin "25")
 				(pinfunction "VIN1_25")
 				(pintype "input")
-			)
-			(node
-				(ref "TP1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP8")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
 			)
 		)
 		(net
@@ -6122,6 +6122,12 @@
 			(name "/DC_DC_Converter_3v3/FB")
 			(class "Default")
 			(node
+				(ref "3v3_FB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "C15")
 				(pin "2")
 				(pintype "passive")
@@ -6152,12 +6158,6 @@
 				(pin "1")
 				(pintype "passive")
 			)
-			(node
-				(ref "TP10")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
 		)
 		(net
 			(code "8")
@@ -6180,6 +6180,12 @@
 			(name "/DC_DC_Converter_3v3/RT")
 			(class "Default")
 			(node
+				(ref "3v3_RT1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "PS3")
 				(pin "7")
 				(pinfunction "RT_7")
@@ -6188,12 +6194,6 @@
 			(node
 				(ref "R16")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP12")
-				(pin "1")
-				(pinfunction "1_1")
 				(pintype "passive")
 			)
 		)
@@ -6298,6 +6298,12 @@
 			(name "/DC_DC_Converter_5V/FB")
 			(class "Default")
 			(node
+				(ref "5V_FB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "C3")
 				(pin "2")
 				(pintype "passive")
@@ -6328,12 +6334,6 @@
 				(pin "1")
 				(pintype "passive")
 			)
-			(node
-				(ref "TP3")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
 		)
 		(net
 			(code "16")
@@ -6356,6 +6356,12 @@
 			(name "/DC_DC_Converter_5V/RT")
 			(class "Default")
 			(node
+				(ref "5V_RT1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "PS2")
 				(pin "7")
 				(pinfunction "RT_7")
@@ -6364,12 +6370,6 @@
 			(node
 				(ref "R6")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP5")
-				(pin "1")
-				(pinfunction "1_1")
 				(pintype "passive")
 			)
 		)
@@ -6576,6 +6576,42 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "GND1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "GND2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "GND3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "GND4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "GND5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "GND6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "J2")
 				(pin "3")
 				(pinfunction "Pin_3_3")
@@ -6703,42 +6739,6 @@
 			(node
 				(ref "R7")
 				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP11")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP13")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP2")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP4")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP6")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP9")
-				(pin "1")
-				(pinfunction "1_1")
 				(pintype "passive")
 			)
 		)
