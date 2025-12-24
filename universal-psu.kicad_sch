@@ -10,172 +10,6 @@
 		(rev "V1")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Receptacle_2P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -7.112 8.636 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Receptacle_2P"
-				(at 0.254 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -4.572 -0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2 Pins non-protected generic plug"
-				(at 0.254 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "2P mains receptacle wall"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CEE*7/2* CEE*7/16* CEE*7/17* NEMA*1?15* SN?441011*Type?11*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_Receptacle_2P_0_1"
-				(circle
-					(center 0 0)
-					(radius 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Receptacle_2P_1_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin power_in line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1405,6 +1239,18 @@
 		(color 0 0 0 0)
 		(uuid "697d55f5-8868-4d3c-a15c-cd4174c403c4")
 	)
+	(junction
+		(at 63.5 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1df6e9-4e3d-474f-a8b5-7f9ba13ad239")
+	)
+	(junction
+		(at 63.5 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faa0c828-68cb-448c-af69-0741fb6c41f0")
+	)
 	(wire
 		(pts
 			(xy 140.97 33.02) (xy 146.05 33.02)
@@ -1424,6 +1270,46 @@
 			(type default)
 		)
 		(uuid "07bf1bea-d494-49cb-b683-835c17281257")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08826d41-4253-45ee-ba85-79dfcda31faf")
+	)
+	(wire
+		(pts
+			(xy 63.5 40.64) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5bf265-eb5f-49bf-a889-ce865ede7dd6")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfa504a-6aaa-4f0e-91a6-5fbce2241a9d")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ab40b8-4dcf-43db-9d85-46692bfb1b92")
 	)
 	(wire
 		(pts
@@ -1447,6 +1333,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 38.1) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a81bd1-9bf4-4d5b-ba27-10e00596f45c")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1720e004-52cf-4d12-be7d-4b68be81ace1")
+	)
+	(wire
+		(pts
 			(xy 109.22 69.85) (xy 119.38 69.85)
 		)
 		(stroke
@@ -1464,6 +1370,16 @@
 			(type default)
 		)
 		(uuid "2c74363a-4d98-4a51-aaaa-fcb55ace813a")
+	)
+	(wire
+		(pts
+			(xy 63.5 31.75) (xy 69.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2230e5-419e-4894-8783-92853284e336")
 	)
 	(wire
 		(pts
@@ -1487,6 +1403,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 33.02) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cd6c7b-819b-4e73-82b7-266ce035b98d")
+	)
+	(wire
+		(pts
 			(xy 109.22 87.63) (xy 119.38 87.63)
 		)
 		(stroke
@@ -1507,13 +1433,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 41.91) (xy 69.85 41.91)
+			(xy 60.96 40.64) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b2dcfc6-565e-497e-83f1-c63fd45c5a7e")
+		(uuid "6b13b454-39ad-497b-a1c0-d73cfca25e0c")
 	)
 	(wire
 		(pts
@@ -1567,13 +1493,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 31.75) (xy 69.85 31.75)
+			(xy 63.5 31.75) (xy 63.5 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5832153-d6d3-4ff6-be34-d4c27d92dd3c")
+		(uuid "c9c34b2b-de7d-4361-8431-17b030a6ad72")
 	)
 	(wire
 		(pts
@@ -1752,7 +1678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f895fb1-9d29-47e4-9821-197a5738ebe3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 146.05 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1812,7 +1738,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305432dc-3b78-4399-a699-353dadb1bec7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 146.05 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -1889,15 +1815,15 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Receptacle_2P")
-		(at 57.15 36.83 0)
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 55.88 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1905,9 +1831,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45ae20c3-3379-44f6-a125-2f078fef1d15")
+		(uuid "31deaa4d-09b6-4e06-8cee-84105ca44873")
 		(property "Reference" "J1"
-			(at 57.15 24.13 0)
+			(at 55.88 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1916,8 +1842,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Receptacle_2P"
-			(at 57.15 26.67 0)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 55.88 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1926,8 +1852,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 52.578 37.084 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,8 +1863,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 36.83 0)
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf"
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,8 +1874,8 @@
 				)
 			)
 		)
-		(property "Description" "2 Pins non-protected generic plug"
-			(at 57.404 36.83 0)
+		(property "Description" "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,8 +1885,8 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
-			(at 57.15 36.83 0)
+		(property "Vendor Part Number" "277-1260-ND"
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,12 +1895,62 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 55.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1715048"
+			(at 55.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "257"
+			(at 55.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628"
+			(at 55.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9995ac79-8a08-465b-8697-eb95ec1b7891")
+		)
+		(pin "4"
+			(uuid "2e919074-a7e3-4b10-897d-1762d0b94810")
 		)
 		(pin "2"
-			(uuid "daa2243b-8093-4435-9dba-45b62bf022c1")
+			(uuid "2ee1fd0c-292f-4213-b869-eda7a56ea352")
 		)
 		(pin "1"
-			(uuid "2aefb2df-4ab3-46b1-827b-2e393228b12c")
+			(uuid "3c4a7f4a-3f99-444e-a3fb-80f57ccb52fc")
 		)
 		(instances
 			(project "universal-psu"
@@ -1996,7 +1972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fcd0641-e507-4a8e-804c-7b3967b81159")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR02"
 			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2056,7 +2032,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
-					(reference "#PWR030")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2073,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62068d73-df84-43b6-8295-5669c71583a1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR03"
 			(at 109.22 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2133,7 +2109,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
-					(reference "#PWR027")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2183,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2194,7 +2170,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2205,7 +2181,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "277-1260-ND"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1715048"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "257"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628"
 			(at 124.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2248,7 +2268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a10fe5c-b44f-4c1d-8d6b-d4e6aa97ec3d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR01"
 			(at 109.22 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2308,7 +2328,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
-					(reference "#PWR049")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb269a0-2e89-49e2-baed-429b0d85c8ae")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR04"
 			(at 109.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2385,7 +2405,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
-					(reference "#PWR035")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2424,7 +2444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2435,7 +2455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2446,7 +2466,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2457,7 +2477,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "277-1260-ND"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1715048"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "257"
+			(at 124.46 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628"
 			(at 124.46 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2553,7 +2617,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1866-3063-ND"
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "MEAN WELL USA Inc."
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IRM-60-12"
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1327"
+			(at 130.81 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/mean-well-usa-inc/IRM-60-12/7704688"
 			(at 130.81 35.56 0)
 			(hide yes)
 			(show_name no)

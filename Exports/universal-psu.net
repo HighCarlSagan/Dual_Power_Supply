@@ -1,0 +1,6992 @@
+(export
+	(version "E")
+	(design
+		(source "/home/carl/Projects/Hardware/universal-psu/universal-psu.kicad_sch")
+		(date "2025-12-24T22:41:06+0530")
+		(tool "Eeschema 9.99.0-4498-ga2657db5e5")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Power Supply Custom")
+				(company)
+				(rev "V1")
+				(date "22 December 2025")
+				(source "universal-psu.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/DC_DC_Converter_5V/")
+			(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			(title_block
+				(title "Power Supply Custom")
+				(company)
+				(rev "V1")
+				(date "22 December 2025")
+				(source "DC_DC_Converter_5V.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/DC_DC_Converter_3v3/")
+			(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			(title_block
+				(title "Power Supply Custom")
+				(company)
+				(rev "V1")
+				(date "22 December 2025")
+				(source "DC_DC_Converter_3v3.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "J1")
+			(value "Screw_Terminal_01x04")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+			(datasheet "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+			(description "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			(fields
+				(field
+					(name "Vendor Part Number") "277-1260-ND")
+				(field
+					(name "MANUFACTURER") "Phoenix Contact")
+				(field
+					(name "Manufacturer Part Number") "1715048")
+				(field
+					(name "Price") "257")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+				(field
+					(name "Datasheet") "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+				(field
+					(name "Description") "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x04")
+				(description "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "277-1260-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Phoenix Contact")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "1715048")
+			)
+			(property
+				(name "Price")
+				(value "257")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "31deaa4d-09b6-4e06-8cee-84105ca44873")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Screw_Terminal_01x04")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+			(datasheet "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+			(description "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			(fields
+				(field
+					(name "Vendor Part Number") "277-1260-ND")
+				(field
+					(name "MANUFACTURER") "Phoenix Contact")
+				(field
+					(name "Manufacturer Part Number") "1715048")
+				(field
+					(name "Price") "257")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+				(field
+					(name "Datasheet") "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+				(field
+					(name "Description") "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x04")
+				(description "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "277-1260-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Phoenix Contact")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "1715048")
+			)
+			(property
+				(name "Price")
+				(value "257")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "67c6758e-5553-4e54-b763-634cc574c4ea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Screw_Terminal_01x04")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+			(datasheet "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+			(description "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			(fields
+				(field
+					(name "Vendor Part Number") "277-1260-ND")
+				(field
+					(name "MANUFACTURER") "Phoenix Contact")
+				(field
+					(name "Manufacturer Part Number") "1715048")
+				(field
+					(name "Price") "257")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+				(field
+					(name "Datasheet") "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+				(field
+					(name "Description") "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x04")
+				(description "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "277-1260-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Phoenix Contact")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "1715048")
+			)
+			(property
+				(name "Price")
+				(value "257")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6c28fbad-e5fe-49e2-8d0a-8176454482ab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PS1")
+			(value "IRM-60-15")
+			(footprint "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT")
+			(datasheet "http://www.meanwellusa.com/productPdf.aspx?i=687")
+			(description "15V, 4A, 60W, Isolated, AC-DC, IRM60")
+			(fields
+				(field
+					(name "Vendor Part Number") "1866-3063-ND")
+				(field
+					(name "MANUFACTURER") "MEAN WELL USA Inc.")
+				(field
+					(name "Manufacturer Part Number") "IRM-60-12")
+				(field
+					(name "Price") "1327")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/mean-well-usa-inc/IRM-60-12/7704688")
+				(field
+					(name "Footprint") "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT")
+				(field
+					(name "Datasheet") "http://www.meanwellusa.com/productPdf.aspx?i=687")
+				(field
+					(name "Description") "15V, 4A, 60W, Isolated, AC-DC, IRM60")
+			)
+			(libsource
+				(lib "Converter_ACDC")
+				(part "IRM-60-15")
+				(description "15V, 4A, 60W, Isolated, AC-DC, IRM60")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "1866-3063-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "MEAN WELL USA Inc.")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "IRM-60-12")
+			)
+			(property
+				(name "Price")
+				(value "1327")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/mean-well-usa-inc/IRM-60-12/7704688")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Miniature Module-type Power Supply MeanWell")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Converter*ACDC*MeanWell*IRM*60*THT*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eba1f587-a452-48e5-9e09-5d964e74aff3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10u_50V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C106M3RACTU")
+				(field
+					(name "Price") "28.2")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+				(field
+					(name "Vendor Part Number") "399-C1210C106M3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C106M3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "28.2")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C106M3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "9508e091-b401-4a42-bd90-b30c440de77b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10u_50V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C106M3RACTU")
+				(field
+					(name "Price") "28.2")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+				(field
+					(name "Vendor Part Number") "399-C1210C106M3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C106M3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "28.2")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C106M3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "9d307767-fef6-4756-b164-5257bfa8b6bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "47n_16V_0603")
+			(footprint "Capacitor_SMD:C_0201_0603Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+				(field
+					(name "Price") "4.78")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+				(field
+					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C0603C473K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "4.78")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C0603C473K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "204155a6-2f44-4394-9cc6-05554e981bda")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100u_50V_1210")
+			(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4002_EEV")
+			(description "100 µF 50 V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105°C")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "EEV107M050S9MAA")
+				(field
+					(name "Price") "41.6")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/EEV107M050S9MAA/6597872")
+				(field
+					(name "Vendor Part Number") "399-EEV107M050S9MAACT-ND")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4002_EEV")
+				(field
+					(name "Description") "100 µF 50 V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105°C")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "EEV107M050S9MAA")
+			)
+			(property
+				(name "Price")
+				(value "41.6")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/EEV107M050S9MAA/6597872")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-EEV107M050S9MAACT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "08f656a1-1ac3-4a69-8e87-7296c7a77b10")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "76fd6079-e803-4153-ba66-1c69e83ddf3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "21c5046f-e794-4e8a-b775-f767ddf90a7f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "2.2n_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E222KA12-01.pdf")
+			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+				(field
+					(name "Price") "4.78")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+				(field
+					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E222KA12-01.pdf")
+				(field
+					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C0603C473K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "4.78")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C0603C473K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "1bf53280-c7fc-43a4-9498-edb8f3180e5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "1u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C105K3RACTU")
+				(field
+					(name "Price") "100")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+				(field
+					(name "Vendor Part Number") "399-C1210C105K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C105K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "100")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C105K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "8ef2c911-7c5e-4104-9400-03702964fa6f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "b914c9e8-62d0-4bcf-a06b-34404855a4fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "47n_16V_0603")
+			(footprint "Capacitor_SMD:C_0201_0603Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+				(field
+					(name "Price") "4.78")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+				(field
+					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C0603C473K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "4.78")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C0603C473K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "f39f14ad-e9be-4884-98a0-cd9828a86f41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "d59ff502-7cc3-4d0d-b46e-c34cd746833f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "1u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C105K3RACTU")
+				(field
+					(name "Price") "100")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+				(field
+					(name "Vendor Part Number") "399-C1210C105K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C105K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "100")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C105K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "b3ba8e18-a8fa-4d2a-900f-f81bbb978785")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PS2")
+			(value "TLVM14406RCHR")
+			(footprint "footprints:CONV_TLVM14406RCHR")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvm14404.pdf?ts=1731607059072")
+			(description "Non-Isolated PoL Module DC DC Converter 2 Output 0.8 ~ 9V 3A, 3A 3V - 36V Input")
+			(fields
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "2.10mm")
+				(field
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "July 2024")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+				(field
+					(name "Price") "742")
+				(field
+					(name "Manufacturer Part Number") "TLVM14406RCHR")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374")
+				(field
+					(name "Vendor Part Number") "296-TLVM14406RCHRCT-ND")
+				(field
+					(name "Footprint") "footprints:CONV_TLVM14406RCHR")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvm14404.pdf?ts=1731607059072")
+				(field
+					(name "Description") "Non-Isolated PoL Module DC DC Converter 2 Output 0.8 ~ 9V 3A, 3A 3V - 36V Input")
+			)
+			(libsource
+				(lib "TLVM14406RCHR")
+				(part "TLVM14406RCHR")
+				(description "")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "2.10mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "NEZY")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "July 2024")
+			)
+			(property
+				(name "VERIFIER")
+				(value "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Price")
+				(value "742")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "TLVM14406RCHR")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "296-TLVM14406RCHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "3de830e2-3b4b-4910-9ad3-23d8188ba40e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "27")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "1ff4dcf1-ded0-4311-b577-c0aaf37e8105")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "100_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-100SCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW0603100RFKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-100SCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW0603100RFKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "09a9f8d7-9156-4070-ab39-4d9836eb369a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "52.3k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "52.3 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5470-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060352K3FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060352K3FKEAC/7924235")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "52.3 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5470-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060352K3FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060352K3FKEAC/7924235")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "4ef1153c-62c8-456f-938b-2b61d6818b98")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "c6055e6e-74f1-4a43-a4d6-440d162648a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "0_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-0.0SBCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06030000Z0EAHP")
+				(field
+					(name "Price") "4.86")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-0.0SBCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06030000Z0EAHP")
+			)
+			(property
+				(name "Price")
+				(value "4.86")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "709e746a-86ce-411a-9459-014158cbe876")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "7.15k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-CRCW06037K15FKEAHPCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06037K15FKEAHP")
+				(field
+					(name "Price") "6.9")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06037K15FKEAHP/2226271")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-CRCW06037K15FKEAHPCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06037K15FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.9")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06037K15FKEAHP/2226271")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "41658c07-ece2-4baf-84ed-3448df70dbef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "9.53k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5606-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06039K53FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5606-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06039K53FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "aa60a556-c2b7-4c51-9da4-6721e038336f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "10889f29-7ef8-4597-b8d0-d7772daa30b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "11k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "11 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5146-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060311K0FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060311K0FKEAC/7924120")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "11 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5146-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060311K0FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060311K0FKEAC/7924120")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "9eda8692-b201-43f6-b664-7ac54c09e50b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "0_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-0.0SBCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06030000Z0EAHP")
+				(field
+					(name "Price") "4.86")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-0.0SBCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06030000Z0EAHP")
+			)
+			(property
+				(name "Price")
+				(value "4.86")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "c9a9bc93-5fcb-4a86-90e8-c4f20b054132")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "12V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "c237a16e-aed4-410f-a63c-8b37fe2ed3bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "88d21920-ac2e-4cd9-ad57-537c25d6ae2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "FB")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "d4573719-a890-49b8-ac10-b6dea185a24b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "559066e9-0b51-4fc9-b87e-bf80589f69ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "RT")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "abb703b2-14fb-4d75-9ff2-281af7ed0811")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "22b814f9-79dc-4134-970b-343353191731")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "b54a82bb-446f-4ae1-93e7-e234f40558a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "10u_50V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C106M3RACTU")
+				(field
+					(name "Price") "28.2")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+				(field
+					(name "Vendor Part Number") "399-C1210C106M3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C106M3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "28.2")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C106M3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "e612d6f8-99c4-4e9b-870b-1706d3eb979b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "10u_50V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C106M3RACTU")
+				(field
+					(name "Price") "28.2")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+				(field
+					(name "Vendor Part Number") "399-C1210C106M3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "10 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C106M3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "28.2")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C106M3RACTU/2216507")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C106M3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "efc69098-fa25-4852-82f7-dd8bea28212b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "47n_16V_0603")
+			(footprint "Capacitor_SMD:C_0201_0603Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+				(field
+					(name "Price") "4.78")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+				(field
+					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C0603C473K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "4.78")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C0603C473K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "79987ca6-8fc2-4751-9409-d45c6b6e05c3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "100u_50V_1210")
+			(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4002_EEV")
+			(description "100 µF 50 V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105°C")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "EEV107M050S9MAA")
+				(field
+					(name "Price") "41.6")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/EEV107M050S9MAA/6597872")
+				(field
+					(name "Vendor Part Number") "399-EEV107M050S9MAACT-ND")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4002_EEV")
+				(field
+					(name "Description") "100 µF 50 V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105°C")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "EEV107M050S9MAA")
+			)
+			(property
+				(name "Price")
+				(value "41.6")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/EEV107M050S9MAA/6597872")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-EEV107M050S9MAACT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "86fdeaa0-5d3b-4e1f-99f8-39ce58e4b9eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "ac0b196d-d552-48c4-86e9-5e6051c2d48a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "bf081a17-a0f6-469c-ad9f-652a452dff6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "2.2n_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E222KA12-01.pdf")
+			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+				(field
+					(name "Price") "4.78")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+				(field
+					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R71E222KA12-01.pdf")
+				(field
+					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C0603C473K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "4.78")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C0603C473K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "834cfcef-30dc-4119-837d-5745ae3fd4e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "1u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C105K3RACTU")
+				(field
+					(name "Price") "100")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+				(field
+					(name "Vendor Part Number") "399-C1210C105K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C105K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "100")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C105K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "d0ce3913-c236-4b08-9650-b82885adba96")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "1f4c6d58-1ad9-4514-b97a-f2858057d430")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "47n_16V_0603")
+			(footprint "Capacitor_SMD:C_0201_0603Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+				(field
+					(name "Price") "4.78")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+				(field
+					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C0603C473K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "4.78")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C0603C473K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "303e8dad-18d8-4736-ac11-7dc1f7804d2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "22u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+			(description "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "GRM32ER71E226ME15L")
+				(field
+					(name "Price") "42.04")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+				(field
+					(name "Vendor Part Number") "490-10758-1-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71E226ME15-01.pdf")
+				(field
+					(name "Description") "22 µF ±20% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM32ER71E226ME15L")
+			)
+			(property
+				(name "Price")
+				(value "42.04")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/murata-electronics/GRM32ER71E226ME15L/4905640")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "490-10758-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "e35992a4-96c3-4d71-9708-a9126d32f921")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "1u_25V_1210")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+			(description "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			(fields
+				(field
+					(name "MANUFACTURER") "KEMET")
+				(field
+					(name "Manufacturer Part Number") "C1210C105K3RACTU")
+				(field
+					(name "Price") "100")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+				(field
+					(name "Vendor Part Number") "399-C1210C105K3RACTUCT-ND")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+				(field
+					(name "Description") "1 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "C1210C105K3RACTU")
+			)
+			(property
+				(name "Price")
+				(value "100")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/kemet/C1210C105K3RACTU/2216479")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "399-C1210C105K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "65e5f0eb-30f5-4b05-b10b-52613cccd674")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PS3")
+			(value "TLVM14406RCHR")
+			(footprint "footprints:CONV_TLVM14406RCHR")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvm14404.pdf?ts=1731607059072")
+			(description "Non-Isolated PoL Module DC DC Converter 2 Output 0.8 ~ 9V 3A, 3A 3V - 36V Input")
+			(fields
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "2.10mm")
+				(field
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "July 2024")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+				(field
+					(name "Vendor Part Number") "296-TLVM14406RCHRCT-ND")
+				(field
+					(name "Manufacturer Part Number") "TLVM14406RCHR")
+				(field
+					(name "Price") "742")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374")
+				(field
+					(name "Footprint") "footprints:CONV_TLVM14406RCHR")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvm14404.pdf?ts=1731607059072")
+				(field
+					(name "Description") "Non-Isolated PoL Module DC DC Converter 2 Output 0.8 ~ 9V 3A, 3A 3V - 36V Input")
+			)
+			(libsource
+				(lib "TLVM14406RCHR")
+				(part "TLVM14406RCHR")
+				(description "")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "2.10mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "NEZY")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "July 2024")
+			)
+			(property
+				(name "VERIFIER")
+				(value "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "296-TLVM14406RCHRCT-ND")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "TLVM14406RCHR")
+			)
+			(property
+				(name "Price")
+				(value "742")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "618f525c-8dcb-4c52-9c3b-969b53914b8f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "27")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "2460eb3e-408f-48c7-96d0-ead37400d517")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "100_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-100SCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW0603100RFKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-100SCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW0603100RFKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "d49a4daa-d169-48dc-8583-9654b7b955dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "31.6k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5351-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060331K6FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5351-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060331K6FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "b1066522-8415-489d-921f-dbbc582980c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "21f934b6-1fdc-4967-a455-f8b877a22ee6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "0_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-0.0SBCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06030000Z0EAHP")
+				(field
+					(name "Price") "4.86")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-0.0SBCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06030000Z0EAHP")
+			)
+			(property
+				(name "Price")
+				(value "4.86")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "561f15d7-8428-41c8-83b2-535c6580ef17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "31.6k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5351-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060331K6FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5351-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060331K6FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "b17c1644-dfb2-466c-99d3-a00c9067e6b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "9.53k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5606-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06039K53FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5606-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06039K53FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "6d70fa17-62cb-474b-ba9c-bbd1c204a781")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "5faeeebc-8817-4600-9320-afcbdc92b897")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "11k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "11 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5146-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060311K0FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060311K0FKEAC/7924120")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "11 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5146-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060311K0FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060311K0FKEAC/7924120")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "7c2f7dda-3b23-465d-a9d3-e287c643328d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "0_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-0.0SBCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06030000Z0EAHP")
+				(field
+					(name "Price") "4.86")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-0.0SBCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06030000Z0EAHP")
+			)
+			(property
+				(name "Price")
+				(value "4.86")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "9f5d3539-bbd8-4f48-b63f-f75913349de3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "12V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "8dca7a5a-0a19-452b-9bf4-f1a701570924")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP9")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "c1abccb4-342e-4885-b939-805a0b37cb65")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP10")
+			(value "FB")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "5c079929-2002-4667-9fc2-928fdc54f7c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP11")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "fe443303-f9f6-4040-b68d-69886e828ac5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP12")
+			(value "RT")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "8b5d173c-52e8-4bdc-8029-71b7ce225abb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP13")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "b38b146b-1527-49b8-9446-36cbd5442727")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP14")
+			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			)
+			(tstamps "203712da-4b7a-4184-a216-84ee2c630414")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Screw_Terminal_01x04")
+			(description "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "TerminalBlock*:*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Screw_Terminal_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Converter_ACDC")
+			(part "IRM-60-15")
+			(description "15V, 4A, 60W, Isolated, AC-DC, IRM60")
+			(docs "http://www.meanwellusa.com/productPdf.aspx?i=687")
+			(footprints
+				(fp "Converter*ACDC*MeanWell*IRM*60*THT*")
+			)
+			(fields
+				(field
+					(name "Reference") "PS")
+				(field
+					(name "Value") "IRM-60-15")
+				(field
+					(name "Footprint") "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT")
+				(field
+					(name "Datasheet") "http://www.meanwellusa.com/productPdf.aspx?i=687")
+				(field
+					(name "Description") "15V, 4A, 60W, Isolated, AC-DC, IRM60")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "AC/L")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "AC/N")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "+Vout")
+					(type "power_out")
+				)
+				(pin
+					(num "4")
+					(name "-Vout")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "TLVM14406RCHR")
+			(part "TLVM14406RCHR")
+			(fields
+				(field
+					(name "Reference") "PS")
+				(field
+					(name "Value") "TLVM14406RCHR")
+				(field
+					(name "Footprint") "TLVM14406RCHR:CONV_TLVM14406RCHR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "2.10mm")
+				(field
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "July 2024")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "Texas Instruments")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PG1")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "EN1")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "BIAS_VOSNS1")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "FB1")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "AGND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "RT")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "SS/FB2")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "COMP/VOSNS2")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "EN2")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "CONFIG")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "NC/PG2")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "PGND")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "VIN2")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "BOOT2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "SW2")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "SW2__1")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "VOUT/VOUT2")
+					(type "output")
+				)
+				(pin
+					(num "19")
+					(name "VOUT/VOUT2__1")
+					(type "output")
+				)
+				(pin
+					(num "20")
+					(name "VOUT/VOUT1")
+					(type "output")
+				)
+				(pin
+					(num "21")
+					(name "VOUT/VOUT1__1")
+					(type "output")
+				)
+				(pin
+					(num "22")
+					(name "SW1")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "SW1__1")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "BOOT1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "VIN1")
+					(type "input")
+				)
+				(pin
+					(num "26")
+					(name "PGND__1")
+					(type "power_in")
+				)
+				(pin
+					(num "27")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "28")
+					(name "PGND__2")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD9_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Converter_ACDC")
+			(uri "${KICAD9_SYMBOL_DIR}/Converter_ACDC.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD9_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "TLVM14406RCHR")
+			(uri "${KIPRJMOD}/libraries/symbols/TLVM14406RCHR.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "18")
+				(pinfunction "VOUT/VOUT2_18")
+				(pintype "output")
+			)
+			(node
+				(ref "PS3")
+				(pin "19")
+				(pinfunction "VOUT/VOUT2__1_19")
+				(pintype "output")
+			)
+			(node
+				(ref "PS3")
+				(pin "20")
+				(pinfunction "VOUT/VOUT1_20")
+				(pintype "output")
+			)
+			(node
+				(ref "PS3")
+				(pin "21")
+				(pinfunction "VOUT/VOUT1__1_21")
+				(pintype "output")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS2")
+				(pin "18")
+				(pinfunction "VOUT/VOUT2_18")
+				(pintype "output")
+			)
+			(node
+				(ref "PS2")
+				(pin "19")
+				(pinfunction "VOUT/VOUT2__1_19")
+				(pintype "output")
+			)
+			(node
+				(ref "PS2")
+				(pin "20")
+				(pinfunction "VOUT/VOUT1_20")
+				(pintype "output")
+			)
+			(node
+				(ref "PS2")
+				(pin "21")
+				(pinfunction "VOUT/VOUT1__1_21")
+				(pintype "output")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "+12V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS1")
+				(pin "3")
+				(pinfunction "+Vout_3")
+				(pintype "power_out")
+			)
+			(node
+				(ref "PS2")
+				(pin "14")
+				(pinfunction "VIN2_14")
+				(pintype "input")
+			)
+			(node
+				(ref "PS2")
+				(pin "25")
+				(pinfunction "VIN1_25")
+				(pintype "input")
+			)
+			(node
+				(ref "PS3")
+				(pin "14")
+				(pinfunction "VIN2_14")
+				(pintype "input")
+			)
+			(node
+				(ref "PS3")
+				(pin "25")
+				(pinfunction "VIN1_25")
+				(pintype "input")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/DC_DC_Converter_3v3/COMP")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "9")
+				(pinfunction "COMP/VOSNS2_9")
+				(pintype "input")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/DC_DC_Converter_3v3/CONFIG")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "11")
+				(pinfunction "CONFIG_11")
+				(pintype "input")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/DC_DC_Converter_3v3/Enable")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "10")
+				(pinfunction "EN2_10")
+				(pintype "input")
+			)
+			(node
+				(ref "PS3")
+				(pin "2")
+				(pinfunction "EN1_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "7")
+			(name "/DC_DC_Converter_3v3/FB")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "4")
+				(pinfunction "FB1_4")
+				(pintype "input")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/DC_DC_Converter_3v3/PG")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "1")
+				(pinfunction "PG1_1")
+				(pintype "output")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/DC_DC_Converter_3v3/RT")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "7")
+				(pinfunction "RT_7")
+				(pintype "input")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/DC_DC_Converter_3v3/Vcc")
+			(class "Default")
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/DC_DC_Converter_3v3/Vosns")
+			(class "Default")
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "3")
+				(pinfunction "BIAS_VOSNS1_3")
+				(pintype "input")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/DC_DC_Converter_5V/COMP")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS2")
+				(pin "9")
+				(pinfunction "COMP/VOSNS2_9")
+				(pintype "input")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/DC_DC_Converter_5V/CONFIG")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "11")
+				(pinfunction "CONFIG_11")
+				(pintype "input")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/DC_DC_Converter_5V/Enable")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "10")
+				(pinfunction "EN2_10")
+				(pintype "input")
+			)
+			(node
+				(ref "PS2")
+				(pin "2")
+				(pinfunction "EN1_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/DC_DC_Converter_5V/FB")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS2")
+				(pin "4")
+				(pinfunction "FB1_4")
+				(pintype "input")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/DC_DC_Converter_5V/PG")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "1")
+				(pinfunction "PG1_1")
+				(pintype "output")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/DC_DC_Converter_5V/RT")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "7")
+				(pinfunction "RT_7")
+				(pintype "input")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/DC_DC_Converter_5V/Vcc")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS2")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/DC_DC_Converter_5V/Vosns")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS2")
+				(pin "3")
+				(pinfunction "BIAS_VOSNS1_3")
+				(pintype "input")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "AC_In_Live")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS1")
+				(pin "1")
+				(pinfunction "AC/L_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "21")
+			(name "AC_In_Neutral")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS1")
+				(pin "2")
+				(pinfunction "AC/N_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "22")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS1")
+				(pin "4")
+				(pinfunction "-Vout_4")
+				(pintype "power_out")
+			)
+			(node
+				(ref "PS2")
+				(pin "13")
+				(pinfunction "PGND_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS2")
+				(pin "26")
+				(pinfunction "PGND__1_26")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS2")
+				(pin "27")
+				(pinfunction "GND_27")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS2")
+				(pin "28")
+				(pinfunction "PGND__2_28")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS2")
+				(pin "6")
+				(pinfunction "AGND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS3")
+				(pin "13")
+				(pinfunction "PGND_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS3")
+				(pin "26")
+				(pinfunction "PGND__1_26")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS3")
+				(pin "27")
+				(pinfunction "GND_27")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS3")
+				(pin "28")
+				(pinfunction "PGND__2_28")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PS3")
+				(pin "6")
+				(pinfunction "AGND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(C3-Pad1)")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(C7-Pad1)")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(C15-Pad1)")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(C19-Pad1)")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(PS2-BOOT1-Pad24)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "24")
+				(pinfunction "BOOT1_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(PS2-BOOT2-Pad15)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "15")
+				(pinfunction "BOOT2_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(PS2-NC{slash}PG2-Pad12)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "12")
+				(pinfunction "NC/PG2_12")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(PS2-SS{slash}FB2-Pad8)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "8")
+				(pinfunction "SS/FB2_8")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(PS2-SW1-Pad22)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "22")
+				(pinfunction "SW1_22")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(PS2-SW1__1-Pad23)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "23")
+				(pinfunction "SW1__1_23")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(PS2-SW2-Pad16)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "16")
+				(pinfunction "SW2_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(PS2-SW2__1-Pad17)")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "17")
+				(pinfunction "SW2__1_17")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(PS3-BOOT1-Pad24)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "24")
+				(pinfunction "BOOT1_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(PS3-BOOT2-Pad15)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "15")
+				(pinfunction "BOOT2_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(PS3-NC{slash}PG2-Pad12)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "12")
+				(pinfunction "NC/PG2_12")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(PS3-SS{slash}FB2-Pad8)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "8")
+				(pinfunction "SS/FB2_8")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(PS3-SW1-Pad22)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "22")
+				(pinfunction "SW1_22")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(PS3-SW1__1-Pad23)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "23")
+				(pinfunction "SW1__1_23")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(PS3-SW2-Pad16)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "16")
+				(pinfunction "SW2_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(PS3-SW2__1-Pad17)")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "17")
+				(pinfunction "SW2__1_17")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

@@ -750,258 +750,6 @@
 					)
 				)
 				(pin input line
-					(at -20.32 -10.16 0)
-					(length 5.08)
-					(name "CONFIG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -35.56 180)
-					(length 5.08)
-					(name "PGND__2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -33.02 180)
-					(length 5.08)
-					(name "PGND__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "SW2__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "SW1__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "VOUT/VOUT2__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 17.78 180)
-					(length 5.08)
-					(name "VOUT/VOUT1__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -15.24 0)
-					(length 5.08)
-					(name "RT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -40.64 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -38.1 180)
-					(length 5.08)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 20.32 180)
-					(length 5.08)
-					(name "VOUT/VOUT1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "VOUT/VOUT2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -15.24 180)
-					(length 5.08)
-					(name "NC/PG2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN2"
@@ -1019,17 +767,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -20.32 10.16 0)
+				(pin power_in line
+					(at 20.32 25.4 180)
 					(length 5.08)
-					(name "EN2"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "10"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1037,17 +785,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -20.32 -5.08 0)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
 					(length 5.08)
-					(name "COMP/VOSNS2"
+					(name "BOOT2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "9"
+					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1055,89 +803,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -20.32 2.54 0)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
 					(length 5.08)
-					(name "SS/FB2"
+					(name "BOOT1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 5.08 0)
-					(length 5.08)
-					(name "FB1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -2.54 0)
-					(length 5.08)
-					(name "BIAS_VOSNS1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -12.7 180)
-					(length 5.08)
-					(name "PG1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 12.7 0)
-					(length 5.08)
-					(name "EN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
+					(number "24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1146,16 +822,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 2.54 180)
+					(at 20.32 7.62 180)
 					(length 5.08)
-					(name "SW2"
+					(name "SW1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "16"
+					(number "22"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1182,16 +858,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 7.62 180)
+					(at 20.32 2.54 180)
 					(length 5.08)
-					(name "SW1"
+					(name "SW2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "22"
+					(number "16"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1199,17 +875,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 -5.08 180)
+				(pin input line
+					(at -20.32 12.7 0)
 					(length 5.08)
-					(name "BOOT1"
+					(name "EN1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "24"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1217,17 +893,179 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 -7.62 180)
+				(pin output line
+					(at 20.32 -12.7 180)
 					(length 5.08)
-					(name "BOOT2"
+					(name "PG1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "15"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "BIAS_VOSNS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "FB1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "SS/FB2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "COMP/VOSNS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "EN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "CONFIG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "NC/PG2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "VOUT/VOUT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "VOUT/VOUT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1236,16 +1074,178 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 25.4 180)
+					(at 20.32 -30.48 180)
 					(length 5.08)
-					(name "VCC"
+					(name "PGND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -38.1 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -40.64 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "RT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "VOUT/VOUT1__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "VOUT/VOUT2__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "SW1__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "SW2__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -33.02 180)
+					(length 5.08)
+					(name "PGND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -35.56 180)
+					(length 5.08)
+					(name "PGND__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3572,7 +3572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19581b15-dc57-4a30-89db-cc63e9b83907")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3632,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3805,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 92.71 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3893,7 +3893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 61.722 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -3904,7 +3904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 63.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3915,7 +3915,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 63.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +3926,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-10.0KSCT-ND"
+			(at 63.5 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 63.5 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060310K0FKEAHP"
+			(at 63.5 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "6.01"
+			(at 63.5 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263"
 			(at 63.5 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.482 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -3995,7 +4039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4017,7 +4061,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-10.0KSCT-ND"
+			(at 48.26 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 48.26 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060310K0FKEAHP"
+			(at 48.26 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "6.01"
+			(at 48.26 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263"
 			(at 48.26 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -4054,7 +4142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b7945f2-6435-41f2-ab05-e32950d47cc7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4114,7 +4202,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4266,7 +4354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "400bac93-865d-47b6-b494-6d2a4172922e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4326,7 +4414,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4343,7 +4431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46759ab1-1e4b-430d-b57b-fc55308e231a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR039"
 			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4403,7 +4491,7 @@
 		(instances
 			(project ""
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4420,7 +4508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5295c858-ef8c-4a3d-8c4f-05a436449bee")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR031"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4480,7 +4568,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR048")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4518,7 +4606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 75.692 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -4529,7 +4617,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4540,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4551,7 +4639,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-0.0SBCT-ND"
+			(at 77.47 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 77.47 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
+			(at 77.47 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "4.86"
+			(at 77.47 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
 			(at 77.47 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -4609,7 +4741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 69.85 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4697,7 +4829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.422 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +4840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4719,7 +4851,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4730,7 +4862,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-10.0KSCT-ND"
+			(at 203.2 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 203.2 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060310K0FKEAHP"
+			(at 203.2 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "6.01"
+			(at 203.2 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263"
 			(at 203.2 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -4787,7 +4963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLVM14406RCHR:CONV_TLVM14406RCHR"
+		(property "Footprint" "footprints:CONV_TLVM14406RCHR"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4799,7 +4975,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlvm14404.pdf?ts=1731607059072"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4810,7 +4986,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Non-Isolated PoL Module DC DC Converter 2 Output 0.8 ~ 9V 3A, 3A 3V - 36V Input"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4893,7 +5069,40 @@
 				(justify bottom)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "296-TLVM14406RCHRCT-ND"
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TLVM14406RCHR"
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "742"
+			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5143,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6907c310-403e-4802-96a5-6c55683e24a5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 265.43 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5203,7 +5412,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5241,7 +5450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -5252,7 +5461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5263,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5274,7 +5483,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-5606-1-ND"
+			(at 154.94 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 154.94 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06039K53FKEAC"
+			(at 154.94 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.56"
+			(at 154.94 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391"
 			(at 154.94 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb33107-c95d-409c-bf35-7da0bc4d7f36")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5371,7 +5624,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5388,7 +5641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74c8f740-a6c7-4fde-a5ad-9667c476cbc6")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 248.92 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5448,7 +5701,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5621,7 +5874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 226.822 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -5632,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 228.6 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5643,7 +5896,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "11 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 228.6 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5654,7 +5907,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-5146-1-ND"
+			(at 228.6 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 228.6 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060311K0FKEAC"
+			(at 228.6 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.56"
+			(at 228.6 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060311K0FKEAC/7924120"
 			(at 228.6 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -5712,7 +6009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 229.5652 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5982,7 +6279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 80.01 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6049,7 +6346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d4f4b33-ae88-4242-aeab-9ff81971ee71")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 48.26 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6109,7 +6406,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6147,7 +6444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 58.42 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6235,7 +6532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 263.652 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -6246,7 +6543,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 265.43 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6554,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 265.43 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6268,7 +6565,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-0.0SBCT-ND"
+			(at 265.43 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 265.43 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW06030000Z0EAHP"
+			(at 265.43 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "4.86"
+			(at 265.43 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231"
 			(at 265.43 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd9a337-601a-492a-8fd9-2ed0ee316142")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 59.69 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6500,7 +6841,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6527,7 +6868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.2k_0.21W_0603"
+		(property "Value" "31.6k_0.21W_0603"
 			(at 57.912 118.872 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6538,7 +6879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 61.722 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -6549,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6560,7 +6901,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6571,7 +6912,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-5351-1-ND"
+			(at 63.5 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 63.5 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060331K6FKEAC"
+			(at 63.5 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.56"
+			(at 63.5 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046"
 			(at 63.5 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -6629,7 +7014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.682 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -6640,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +7036,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +7047,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-5351-1-ND"
+			(at 124.46 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 124.46 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060331K6FKEAC"
+			(at 124.46 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.56"
+			(at 124.46 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046"
 			(at 124.46 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +7149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 80.01 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +7216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8cabd76-5185-44fe-be3b-07fdd17ff91b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6847,7 +7276,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6864,7 +7293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba422a08-6c2a-4285-8afa-127bc90f1485")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR041"
 			(at 228.6 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +7353,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR037")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7097,7 +7526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 64.77 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7164,7 +7593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d058a995-0d3d-4f82-be77-ab398bc65a55")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 39.37 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7224,7 +7653,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7397,7 +7826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 61.722 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -7408,7 +7837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 63.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +7848,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 63.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7430,7 +7859,51 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "541-100SCT-ND"
+			(at 63.5 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay Dale"
+			(at 63.5 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW0603100RFKEAHP"
+			(at 63.5 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "6.01"
+			(at 63.5 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245"
 			(at 63.5 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +7940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7346e96-f2dc-4a57-89a3-5bdd712b06c7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7527,7 +8000,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7544,7 +8017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def49a7e-f046-4f98-aaa9-675bc9f252e4")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR040"
 			(at 203.2 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7604,7 +8077,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR046")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7891,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ab2223-a431-4c6d-8886-adbf322f928d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7951,7 +8424,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f01b6a09-3f43-4d07-8c71-e4559726466d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8163,7 +8636,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8180,7 +8653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3a3a47e-87b9-4709-a3e9-ef676b03c1e1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR042"
 			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8240,7 +8713,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa88393-9394-445f-bffd-fb17ad80df31")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 250.19 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8317,7 +8790,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8334,7 +8807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb289086-bb58-471f-b6b0-176e9f6eff13")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR034"
 			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8394,7 +8867,7 @@
 		(instances
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e/fea1cda1-5d74-450c-bf04-495c5d5714c3"
-					(reference "#PWR047")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8432,7 +8905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 72.39 166.37 0)
 			(hide yes)
 			(show_name no)
