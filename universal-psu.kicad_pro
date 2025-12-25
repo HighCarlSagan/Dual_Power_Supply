@@ -737,7 +737,7 @@
         "uuid": "08cd4a39-b122-4f15-a276-9889e34f331e"
       }
     ],
-    "used_designators": "5V_RT1,5V_FB1,5V1,3v3_RT1,3v3_FB1,12V1-2,GND1-6,#PWR47"
+    "used_designators": ""
   },
   "sheets": [
     [
