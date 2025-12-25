@@ -1,88 +1,188 @@
-# Universal Power Supply Unit (PSU)
+# Universal PSU - 60W Dual Output Power Supply
 
-A compact dual-output power supply board providing regulated 3.3V and 5V rails, each capable of delivering up to 6A.
+A compact, universal input AC-DC power supply designed for hobby electronics projects. Features dual regulated outputs (3.3V and 5V) with up to 6A per rail, built-in protection, and global voltage compatibility.
 
-## Specifications
-
-- **Input:** AC mains (via MEAN WELL IRM-60-12)
-- **Output 1:** 3.3V @ 6A max
-- **Output 2:** 5V @ 6A max
-- **Total Power:** 60W maximum
-- **Intermediate Rail:** 12V DC (from AC/DC converter)
-
-## Key Components
-
-- **AC/DC Converter:** MEAN WELL IRM-60-12 (60W, 12V output)
-- **DC/DC Converter:** Texas Instruments TLVM14406RCHR (high-efficiency buck converter)
+![PCB 3D View - Top](Exports/universal-psu-3dview-top.png)
 
 ## Features
 
-- Dual regulated outputs (3.3V and 5V)
-- 6A current capability per rail
-- Compact PCB design
-- Integrated thermal management
-- Complete with 3D models for mechanical integration
+- **Universal Input**: 110-230V AC, 50/60Hz compatible
+- **Dual Outputs**: 
+  - 3.3V @ 6A max
+  - 5V @ 6A max
+- **Total Power**: 60W peak
+- **Protection**: Built-in overcurrent protection (OCP) and thermal shutdown
+- **Compact Design**: Optimized for hobby electronics applications
+- **Fixed Outputs**: Stable, regulated voltages
 
-## Project Contents
+## Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Input Voltage | 110-230V AC |
+| Input Frequency | 50/60 Hz |
+| Output 1 | 3.3V @ 6A |
+| Output 2 | 5V @ 6A |
+| Total Power | 60W (peak) |
+| Protection | OCP, Thermal Shutdown |
+
+## Key Components
+
+- **AC-DC Converter**: IRM-60-12 (60W, universal input)
+- **DC-DC Regulators**: TLVM14406RCHR (dual outputs)
+- **4-layer PCB** for improved thermal performance and signal integrity
+
+## Project Structure
+
 ```
 universal-psu/
-├── universal-psu.kicad_sch       # Main schematic (includes design calculations)
-├── universal-psu.kicad_pcb       # PCB layout
-├── Subsheets/                    # Hierarchical schematic sheets
+├── Exports/                    # Production files
+│   ├── Gerber/                # Manufacturing files
+│   ├── universal-psu.pdf      # Schematic PDF
+│   ├── universal-psu.csv      # Bill of Materials
+│   ├── universal-psu.net      # Netlist
+│   ├── universal-psu-3dview-top.png
+│   └── universal-psu-3dview-bot.png
+├── libraries/                  # Custom KiCad libraries
+│   ├── 3dmodels/              # STEP models
+│   ├── footprints/            # Custom footprints
+│   └── symbols/               # Custom symbols
+├── Subsheets/                 # Hierarchical schematic sheets
 │   ├── DC_DC_Converter_3v3.kicad_sch
 │   └── DC_DC_Converter_5V.kicad_sch
-├── libraries/
-│   ├── symbols/                  # Custom KiCad symbols
-│   │   ├── IRM-60-12.kicad_sym
-│   │   └── TLVM14406RCHR.kicad_sym
-│   ├── footprints/               # Custom footprints
-│   │   ├── CONV_IRM-60-12.kicad_mod
-│   │   └── CONV_TLVM14406RCHR.kicad_mod
-│   └── 3dmodels/                 # 3D models for visualization
-│       ├── IRM-60-12.step
-│       └── RCH0028B.stp
-└── README.md
+├── universal-psu.kicad_pcb    # PCB layout
+├── universal-psu.kicad_sch    # Main schematic
+└── universal-psu.kicad_pro    # KiCad project file
 ```
 
-## Design Notes
+## PCB Details
 
-All component calculations and design mathematics are included directly in the schematic files. This includes:
-- Buck converter component selection
-- Output capacitor sizing
-- Thermal considerations
-- Load current distribution
+- **Layers**: 4-layer stackup
+- **Dimensions**: [TBD - check PCB file]
+- **Mounting**: [TBD - check hole spacing]
 
-## Opening the Project
+## Board Views
 
-1. Clone this repository:
-```bash
-   git clone git@github.com:HighCarlSagan/Dual_Power_Supply.git
-   cd Dual_Power_Supply
-```
+### Top View
+![PCB 3D View - Top](Exports/universal-psu-3dview-top.png)
 
-2. Open `universal-psu.kicad_pro` in KiCad 7.0 or later
+### Bottom View
+![PCB 3D View - Bottom](Exports/universal-psu-3dview-bot.png)
 
-3. All custom symbols, footprints, and 3D models will load automatically from the `libraries/` folder
+## Manufacturing
 
-## Bill of Materials (BOM)
+### Status
+🚧 **Currently in manufacturing** - First prototype batch
 
-Key components:
-- 1x MEAN WELL IRM-60-12 AC/DC Converter
-- 2x TI TLVM14406RCHR Buck Converter IC
-- Additional passives and connectors (see schematic for complete BOM)
+### Files
+Ready-to-manufacture Gerber files are available in `Exports/Gerber/`
 
-## Applications
+The board uses standard 4-layer stackup compatible with most PCB manufacturers (JLCPCB, PCBWay, OSH Park, etc.)
 
-- Embedded system power supply
-- Microcontroller projects requiring dual voltage rails
-- IoT device power management
-- Prototyping and development boards
+## Assembly
 
+1. **Safety First**: This design works with mains voltage (110-230V AC). Only assemble if you have experience with high-voltage circuits.
+2. Solder surface-mount components first (use hot air or reflow)
+3. Install through-hole connectors
+4. Inspect for solder bridges, especially around the AC-DC converter
+5. Test continuity before applying power
 
-## Author
+⚠️ **WARNING**: This board handles mains voltage. Improper assembly or use can result in electric shock, fire, or death. Ensure proper insulation and enclosure before use.
 
-Mayank S
+## Testing
 
-## Version History
+- [ ] Visual inspection for solder bridges
+- [ ] Continuity test (power off)
+- [ ] Initial power-on with current-limited supply
+- [ ] Output voltage verification (3.3V, 5V)
+- [ ] Load testing (gradual increase to 6A per rail)
+- [ ] Thermal testing under full load
 
-- **v1.0** - Initial design with 3.3V and 5V outputs
+## Known Limitations
+
+- Fixed output voltages (not adjustable)
+- No output enable/disable control
+- Maximum 6A per rail (60W total shared between outputs)
+
+## Future Improvements
+
+- [ ] Increase power capacity (>60W)
+- [ ] Additional output voltages (12V, adjustable rail)
+- [ ] Improved PCB layout for better thermal performance
+- [ ] Smaller form factor
+- [ ] Custom 3D-printed enclosure (design in progress)
+- [ ] Output enable controls
+- [ ] LED status indicators
+
+## Development Tools
+
+- **KiCad Version**: 8.x (recommended)
+- **Design Software**: KiCad EDA
+- **3D Models**: STEP files included in `libraries/3dmodels/`
+
+## Bill of Materials
+
+See `Exports/universal-psu.csv` for complete BOM with part numbers and suppliers.
+
+## Schematic
+
+Full schematic is available as PDF: `Exports/universal-psu.pdf`
+
+## Contributing
+
+Contributions welcome! Areas of interest:
+- Layout optimization
+- Additional output options
+- Enclosure design
+- Testing and validation feedback
+
+Please open an issue or pull request with your suggestions.
+
+## License
+
+This project is licensed under the **CERN Open Hardware License v2 - Strongly Reciprocal (CERN-OHL-S-2.0)**.
+
+You are free to:
+- Use this design commercially or non-commercially
+- Modify and distribute the design
+- Create and sell products based on this design
+
+Under the conditions that:
+- You share modifications under the same license
+- You provide attribution
+- You include the license text
+
+See [LICENSE](LICENSE) file for full details.
+
+## Safety Disclaimer
+
+⚠️ **DANGER - HIGH VOLTAGE**
+
+This device operates at mains voltage (110-230V AC) which can be **LETHAL**. 
+
+- Only build this if you understand electrical safety
+- Use proper insulation and enclosure
+- Never operate the board exposed
+- Comply with local electrical codes and regulations
+- Consider having the design reviewed by a qualified electrical engineer
+- Not intended for medical, safety-critical, or life-support applications
+
+**The author assumes no liability for injury, death, property damage, or any other consequences of using this design.**
+
+## Credits
+
+**Design by**: Mayank S
+
+**Date**: December 2025
+
+## Contact
+
+For questions, issues, or collaboration:
+- Open an issue on GitHub
+- Check the discussions tab
+
+---
+
+**Project Status**: 🟡 Prototype - In Manufacturing
+
+*Star ⭐ this repo if you find it useful!*
