@@ -539,7 +539,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "Exports/universal-psu_BoM.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -737,7 +737,7 @@
         "uuid": "08cd4a39-b122-4f15-a276-9889e34f331e"
       }
     ],
-    "used_designators": "J1-3,RT1-3,3v4,12V1-4,3v3_FB1-2,5V1,3v3_RT1-2,5V_FB1,C1-48,GND1-12,#PWR1-39,#PWR47-78,FB1-3,5V_RT1,PS1-5,R1-48,H1-4,Out_TP1-2"
+    "used_designators": ""
   },
   "sheets": [
     [
