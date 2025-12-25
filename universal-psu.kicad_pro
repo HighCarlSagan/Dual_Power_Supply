@@ -129,7 +129,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -539,7 +539,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Exports/universal-psu_BoM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -678,7 +678,7 @@
           "group_by": false,
           "label": "Vendor Part Number",
           "name": "Vendor Part Number",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -737,7 +737,7 @@
         "uuid": "08cd4a39-b122-4f15-a276-9889e34f331e"
       }
     ],
-    "used_designators": ""
+    "used_designators": "J1-3,RT1-3,3v4,12V1-4,3v3_FB1-2,5V1,3v3_RT1-2,5V_FB1,C1-48,GND1-12,#PWR1-39,#PWR47-78,FB1-3,5V_RT1,PS1-5,R1-48,H1-4,Out_TP1-2"
   },
   "sheets": [
     [
@@ -745,12 +745,12 @@
       "universal-psu"
     ],
     [
-      "c9134cf9-961a-49e2-b7fe-4b733c12d67f",
-      "DC_DC_Converter_5V"
+      "0c6c1167-d729-4531-b831-63eac617d2cb",
+      "DC_DC_Converter_3v3"
     ],
     [
-      "fea1cda1-5d74-450c-bf04-495c5d5714c3",
-      "DC_DC_Converter_3v3"
+      "c9134cf9-961a-49e2-b7fe-4b733c12d67f",
+      "DC_DC_Converter_5V"
     ]
   ],
   "text_variables": {},

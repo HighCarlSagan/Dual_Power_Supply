@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/carl/Projects/Hardware/universal-psu/universal-psu.kicad_sch")
-		(date "2025-12-25T01:45:06+0530")
+		(date "2025-12-25T21:27:58+0530")
 		(tool "Eeschema 9.99.0-4546-gb76221958b")
 		(sheet
 			(number "1")
@@ -54,8 +54,8 @@
 		)
 		(sheet
 			(number "2")
-			(name "/DC_DC_Converter_5V/")
-			(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			(name "/DC_DC_Converter_3v3/")
+			(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			(title_block
 				(title "Power Supply Custom")
 				(company)
@@ -102,14 +102,14 @@
 		)
 		(sheet
 			(number "3")
-			(name "/DC_DC_Converter_3v3/")
-			(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+			(name "/DC_DC_Converter_5V/")
+			(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			(title_block
 				(title "Power Supply Custom")
 				(company)
 				(rev "V1")
 				(date "22 December 2025")
-				(source "DC_DC_Converter_3v3.kicad_sch")
+				(source "DC_DC_Converter_5V.kicad_sch")
 				(comment
 					(number "1")
 					(value "")
@@ -150,6 +150,222 @@
 		)
 	)
 	(components
+		(comp
+			(ref "H1")
+			(value "MH_Pad_MP")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole with connection as pad named MP")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection as pad named MP")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad_MP")
+				(description "Mounting Hole with connection as pad named MP")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "418927be-5143-4c50-a0e6-5cce061b5fb7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MH_Pad_MP")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole with connection as pad named MP")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection as pad named MP")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad_MP")
+				(description "Mounting Hole with connection as pad named MP")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "70718a91-512f-4a61-9445-ceb2b7900e06")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MH_Pad_MP")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole with connection as pad named MP")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection as pad named MP")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad_MP")
+				(description "Mounting Hole with connection as pad named MP")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4bfb689d-6898-47ad-9d4f-e552d7a6549c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MH_Pad_MP")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole with connection as pad named MP")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection as pad named MP")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad_MP")
+				(description "Mounting Hole with connection as pad named MP")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9db43c58-9175-494c-87e6-ec222f566b08")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
 		(comp
 			(ref "J1")
 			(value "Screw_Terminal_01x04")
@@ -511,180 +727,6 @@
 			)
 		)
 		(comp
-			(ref "5V1")
-			(value "5V")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "b54a82bb-446f-4ae1-93e7-e234f40558a2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "5V_FB1")
-			(value "FB")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "d4573719-a890-49b8-ac10-b6dea185a24b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "5V_RT1")
-			(value "RT")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
-			)
-			(tstamps "abb703b2-14fb-4d75-9ff2-281af7ed0811")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "12V1")
 			(value "12V")
 			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
@@ -712,7 +754,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -727,10 +769,10 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "c237a16e-aed4-410f-a63c-8b37fe2ed3bd")
+			(tstamps "5ddd1f7e-d41c-4128-beb5-cfad42d241dd")
 			(units
 				(unit
 					(name "A")
@@ -793,7 +835,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -808,10 +850,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "9508e091-b401-4a42-bd90-b30c440de77b")
+			(tstamps "8a142826-fc03-482f-b6da-333a5cbc1760")
 			(units
 				(unit
 					(name "A")
@@ -877,7 +919,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -892,10 +934,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "9d307767-fef6-4756-b164-5257bfa8b6bd")
+			(tstamps "9061b8f7-5c43-47ed-9510-87f84788baa6")
 			(units
 				(unit
 					(name "A")
@@ -961,7 +1003,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -976,10 +1018,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "204155a6-2f44-4394-9cc6-05554e981bda")
+			(tstamps "d377de5f-095f-4757-92eb-d6f73e65429a")
 			(units
 				(unit
 					(name "A")
@@ -1045,7 +1087,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1060,10 +1102,10 @@
 				(value "CP_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "08f656a1-1ac3-4a69-8e87-7296c7a77b10")
+			(tstamps "5303ed24-ac41-4f4a-b6a9-b6a4f11bf7e0")
 			(units
 				(unit
 					(name "A")
@@ -1129,7 +1171,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1144,10 +1186,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "76fd6079-e803-4153-ba66-1c69e83ddf3f")
+			(tstamps "85270dcc-8808-499b-a665-dee33b2131f2")
 			(units
 				(unit
 					(name "A")
@@ -1213,7 +1255,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1228,10 +1270,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "21c5046f-e794-4e8a-b775-f767ddf90a7f")
+			(tstamps "3bfe0f9e-eb8e-4e88-a87c-18fd6af19536")
 			(units
 				(unit
 					(name "A")
@@ -1297,7 +1339,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1312,10 +1354,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "1bf53280-c7fc-43a4-9498-edb8f3180e5d")
+			(tstamps "fcb96fe3-54be-4267-87d8-8cee1740ea9a")
 			(units
 				(unit
 					(name "A")
@@ -1381,7 +1423,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1396,10 +1438,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "8ef2c911-7c5e-4104-9400-03702964fa6f")
+			(tstamps "7c683f88-2c38-4385-946a-e0c86b721ec7")
 			(units
 				(unit
 					(name "A")
@@ -1465,7 +1507,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1480,10 +1522,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "b914c9e8-62d0-4bcf-a06b-34404855a4fa")
+			(tstamps "c77b2bb4-b0b0-4270-84cc-e5ec5d72e876")
 			(units
 				(unit
 					(name "A")
@@ -1549,7 +1591,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1564,10 +1606,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "f39f14ad-e9be-4884-98a0-cd9828a86f41")
+			(tstamps "3bf84f5a-0b4d-4c5c-a239-d8841a19fecb")
 			(units
 				(unit
 					(name "A")
@@ -1633,7 +1675,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1648,10 +1690,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "d59ff502-7cc3-4d0d-b46e-c34cd746833f")
+			(tstamps "fa2b35ed-eb18-4c06-a3f0-676143a0afc4")
 			(units
 				(unit
 					(name "A")
@@ -1717,7 +1759,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1732,10 +1774,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "b3ba8e18-a8fa-4d2a-900f-f81bbb978785")
+			(tstamps "672738f3-6fc4-4100-9a28-35f5e379a54b")
 			(units
 				(unit
 					(name "A")
@@ -1745,6 +1787,64 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB1")
+			(value "FB")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
+			)
+			(tstamps "a856073a-5ed2-4d9a-b098-80e86a4aa597")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -1778,7 +1878,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1793,10 +1893,10 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "88d21920-ac2e-4cd9-ad57-537c25d6ae2e")
+			(tstamps "feb6463e-9386-43c7-9d08-84c7b83251b0")
 			(units
 				(unit
 					(name "A")
@@ -1836,7 +1936,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1851,10 +1951,10 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "559066e9-0b51-4fc9-b87e-bf80589f69ad")
+			(tstamps "61386b27-41bb-4c27-8f4d-4e9f6c8c4a80")
 			(units
 				(unit
 					(name "A")
@@ -1894,7 +1994,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -1909,10 +2009,68 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "22b814f9-79dc-4134-970b-343353191731")
+			(tstamps "34a69123-dc2f-4396-a4a5-fc5ad017fb30")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Out_TP1")
+			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
+			)
+			(tstamps "97c6ac46-32ff-4502-8906-16661ef64e8a")
 			(units
 				(unit
 					(name "A")
@@ -2013,17 +2171,17 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
 				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "3de830e2-3b4b-4910-9ad3-23d8188ba40e")
+			(tstamps "573560d4-828f-4a3b-b66e-54bbf49e039f")
 			(units
 				(unit
 					(name "A")
@@ -2167,7 +2325,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2185,10 +2343,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "1ff4dcf1-ded0-4311-b577-c0aaf37e8105")
+			(tstamps "1fa7f317-29d3-4a31-b9ef-4fe144554f0e")
 			(units
 				(unit
 					(name "A")
@@ -2205,6 +2363,90 @@
 		)
 		(comp
 			(ref "R2")
+			(value "31.6k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5351-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060331K6FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5351-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060331K6FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
+			)
+			(tstamps "d4c848a3-ef40-4c6d-a337-dc4dca168c91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
 			(value "100_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -2254,7 +2496,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2269,10 +2511,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "09a9f8d7-9156-4070-ab39-4d9836eb369a")
+			(tstamps "4ca0c4ae-99de-4264-92ec-63a9f41b5550")
 			(units
 				(unit
 					(name "A")
@@ -2288,7 +2530,7 @@
 			)
 		)
 		(comp
-			(ref "R3")
+			(ref "R4")
 			(value "52.3k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
@@ -2338,7 +2580,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2353,10 +2595,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "4ef1153c-62c8-456f-938b-2b61d6818b98")
+			(tstamps "c4a387b9-6ca7-4c58-bafc-5cb2cfe8a757")
 			(units
 				(unit
 					(name "A")
@@ -2372,7 +2614,7 @@
 			)
 		)
 		(comp
-			(ref "R4")
+			(ref "R5")
 			(value "10k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -2422,7 +2664,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2437,10 +2679,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "c6055e6e-74f1-4a43-a4d6-440d162648a7")
+			(tstamps "92f4b838-a193-4ba5-bef8-447662d74c27")
 			(units
 				(unit
 					(name "A")
@@ -2456,7 +2698,7 @@
 			)
 		)
 		(comp
-			(ref "R5")
+			(ref "R6")
 			(value "0_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -2506,7 +2748,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2524,10 +2766,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "709e746a-86ce-411a-9459-014158cbe876")
+			(tstamps "cb78bd38-dad4-4566-9d0b-1e45308b4e66")
 			(units
 				(unit
 					(name "A")
@@ -2543,7 +2785,91 @@
 			)
 		)
 		(comp
-			(ref "R6")
+			(ref "R7")
+			(value "31.6k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5351-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060331K6FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5351-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060331K6FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
+			)
+			(tstamps "5071f43d-e4a7-48f3-8e31-8e01d2cd49a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
 			(value "7.15k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -2593,7 +2919,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2608,10 +2934,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "41658c07-ece2-4baf-84ed-3448df70dbef")
+			(tstamps "d54963b0-58d3-4ce3-bf3a-1f39400203d0")
 			(units
 				(unit
 					(name "A")
@@ -2627,7 +2953,7 @@
 			)
 		)
 		(comp
-			(ref "R7")
+			(ref "R9")
 			(value "9.53k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
@@ -2677,7 +3003,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2692,10 +3018,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "aa60a556-c2b7-4c51-9da4-6721e038336f")
+			(tstamps "ba6444ed-96ea-42ba-ba83-223fbd8917af")
 			(units
 				(unit
 					(name "A")
@@ -2711,7 +3037,7 @@
 			)
 		)
 		(comp
-			(ref "R8")
+			(ref "R10")
 			(value "10k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -2761,7 +3087,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2776,10 +3102,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "10889f29-7ef8-4597-b8d0-d7772daa30b1")
+			(tstamps "d0d8c942-c728-401d-9392-48c3610c120e")
 			(units
 				(unit
 					(name "A")
@@ -2795,7 +3121,91 @@
 			)
 		)
 		(comp
-			(ref "R9")
+			(ref "R11")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_3v3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
+			)
+			(tstamps "ce28b64e-fd93-45e0-addb-4b7440e1fb1c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
 			(value "11k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
@@ -2845,7 +3255,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2860,10 +3270,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "9eda8692-b201-43f6-b664-7ac54c09e50b")
+			(tstamps "fd1be9b1-c151-4398-b3b2-daaa727869c4")
 			(units
 				(unit
 					(name "A")
@@ -2879,7 +3289,7 @@
 			)
 		)
 		(comp
-			(ref "R10")
+			(ref "R13")
 			(value "0_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -2929,7 +3339,7 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_5V")
+				(value "DC_DC_Converter_3v3")
 			)
 			(property
 				(name "Sheetfile")
@@ -2944,10 +3354,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_5V/")
-				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+				(names "/DC_DC_Converter_3v3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "c9a9bc93-5fcb-4a86-90e8-c4f20b054132")
+			(tstamps "04896375-63ae-42c8-b2bc-7076f57e345a")
 			(units
 				(unit
 					(name "A")
@@ -2963,123 +3373,7 @@
 			)
 		)
 		(comp
-			(ref "3v3")
-			(value "5V")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "203712da-4b7a-4184-a216-84ee2c630414")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "3v3_FB1")
-			(value "FB")
-			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "5c079929-2002-4667-9fc2-928fdc54f7c4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "3v3_RT1")
+			(ref "RT1")
 			(value "RT")
 			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
 			(description "test point")
@@ -3110,7 +3404,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3122,9 +3416,9 @@
 			)
 			(sheetpath
 				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(tstamps "/0c6c1167-d729-4531-b831-63eac617d2cb/")
 			)
-			(tstamps "8b5d173c-52e8-4bdc-8029-71b7ce225abb")
+			(tstamps "78c24fa8-bf23-443e-a3f1-098d3990887c")
 			(units
 				(unit
 					(name "A")
@@ -3164,11 +3458,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3179,10 +3473,10 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "8dca7a5a-0a19-452b-9bf4-f1a701570924")
+			(tstamps "5ddd1f7e-d41c-4128-beb5-cfad42d241dd")
 			(units
 				(unit
 					(name "A")
@@ -3245,11 +3539,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3260,10 +3554,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "e612d6f8-99c4-4e9b-870b-1706d3eb979b")
+			(tstamps "8a142826-fc03-482f-b6da-333a5cbc1760")
 			(units
 				(unit
 					(name "A")
@@ -3329,11 +3623,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3344,10 +3638,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "efc69098-fa25-4852-82f7-dd8bea28212b")
+			(tstamps "9061b8f7-5c43-47ed-9510-87f84788baa6")
 			(units
 				(unit
 					(name "A")
@@ -3413,11 +3707,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3428,10 +3722,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "79987ca6-8fc2-4751-9409-d45c6b6e05c3")
+			(tstamps "d377de5f-095f-4757-92eb-d6f73e65429a")
 			(units
 				(unit
 					(name "A")
@@ -3497,11 +3791,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3512,10 +3806,10 @@
 				(value "CP_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "86fdeaa0-5d3b-4e1f-99f8-39ce58e4b9eb")
+			(tstamps "5303ed24-ac41-4f4a-b6a9-b6a4f11bf7e0")
 			(units
 				(unit
 					(name "A")
@@ -3581,11 +3875,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3596,10 +3890,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "ac0b196d-d552-48c4-86e9-5e6051c2d48a")
+			(tstamps "85270dcc-8808-499b-a665-dee33b2131f2")
 			(units
 				(unit
 					(name "A")
@@ -3665,11 +3959,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3680,10 +3974,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "bf081a17-a0f6-469c-ad9f-652a452dff6a")
+			(tstamps "3bfe0f9e-eb8e-4e88-a87c-18fd6af19536")
 			(units
 				(unit
 					(name "A")
@@ -3749,11 +4043,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3764,10 +4058,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "834cfcef-30dc-4119-837d-5745ae3fd4e4")
+			(tstamps "fcb96fe3-54be-4267-87d8-8cee1740ea9a")
 			(units
 				(unit
 					(name "A")
@@ -3833,11 +4127,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3848,10 +4142,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "d0ce3913-c236-4b08-9650-b82885adba96")
+			(tstamps "7c683f88-2c38-4385-946a-e0c86b721ec7")
 			(units
 				(unit
 					(name "A")
@@ -3917,11 +4211,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3932,10 +4226,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "1f4c6d58-1ad9-4514-b97a-f2858057d430")
+			(tstamps "c77b2bb4-b0b0-4270-84cc-e5ec5d72e876")
 			(units
 				(unit
 					(name "A")
@@ -4001,11 +4295,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -4016,10 +4310,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "303e8dad-18d8-4736-ac11-7dc1f7804d2e")
+			(tstamps "3bf84f5a-0b4d-4c5c-a239-d8841a19fecb")
 			(units
 				(unit
 					(name "A")
@@ -4085,11 +4379,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -4100,10 +4394,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "e35992a4-96c3-4d71-9708-a9126d32f921")
+			(tstamps "fa2b35ed-eb18-4c06-a3f0-676143a0afc4")
 			(units
 				(unit
 					(name "A")
@@ -4169,11 +4463,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -4184,10 +4478,10 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "65e5f0eb-30f5-4b05-b10b-52613cccd674")
+			(tstamps "672738f3-6fc4-4100-9a28-35f5e379a54b")
 			(units
 				(unit
 					(name "A")
@@ -4197,6 +4491,64 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB2")
+			(value "FB")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "a856073a-5ed2-4d9a-b098-80e86a4aa597")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -4230,11 +4582,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -4245,10 +4597,10 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "c1abccb4-342e-4885-b939-805a0b37cb65")
+			(tstamps "feb6463e-9386-43c7-9d08-84c7b83251b0")
 			(units
 				(unit
 					(name "A")
@@ -4288,11 +4640,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -4303,10 +4655,10 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "fe443303-f9f6-4040-b68d-69886e828ac5")
+			(tstamps "61386b27-41bb-4c27-8f4d-4e9f6c8c4a80")
 			(units
 				(unit
 					(name "A")
@@ -4346,11 +4698,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -4361,10 +4713,68 @@
 				(value "Pin* Test*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "b38b146b-1527-49b8-9446-36cbd5442727")
+			(tstamps "34a69123-dc2f-4396-a4a5-fc5ad017fb30")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Out_TP2")
+			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "97c6ac46-32ff-4502-8906-16661ef64e8a")
 			(units
 				(unit
 					(name "A")
@@ -4397,13 +4807,16 @@
 				(field
 					(name "MANUFACTURER") "Texas Instruments")
 				(field
-					(name "Vendor Part Number") "296-TLVM14406RCHRCT-ND")
+					(name "Price") "742")
 				(field
 					(name "Manufacturer Part Number") "TLVM14406RCHR")
 				(field
-					(name "Price") "742")
+					(name "Vendor")
+				)
 				(field
 					(name "Vendor Link") "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374")
+				(field
+					(name "Vendor Part Number") "296-TLVM14406RCHRCT-ND")
 				(field
 					(name "Footprint") "footprints:CONV_TLVM14406RCHR")
 				(field
@@ -4441,34 +4854,38 @@
 				(value "Texas Instruments")
 			)
 			(property
-				(name "Vendor Part Number")
-				(value "296-TLVM14406RCHRCT-ND")
+				(name "Price")
+				(value "742")
 			)
 			(property
 				(name "Manufacturer Part Number")
 				(value "TLVM14406RCHR")
 			)
 			(property
-				(name "Price")
-				(value "742")
+				(name "Vendor")
+				(value "")
 			)
 			(property
 				(name "Vendor Link")
 				(value "https://www.digikey.in/en/products/detail/texas-instruments/TLVM14406RCHR/25318374")
 			)
 			(property
+				(name "Vendor Part Number")
+				(value "296-TLVM14406RCHRCT-ND")
+			)
+			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "618f525c-8dcb-4c52-9c3b-969b53914b8f")
+			(tstamps "573560d4-828f-4a3b-b66e-54bbf49e039f")
 			(units
 				(unit
 					(name "A")
@@ -4562,261 +4979,6 @@
 			)
 		)
 		(comp
-			(ref "R11")
-			(value "10k_0.21W_0603")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
-			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
-			(fields
-				(field
-					(name "Vendor Part Number") "541-10.0KSCT-ND")
-				(field
-					(name "MANUFACTURER") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
-				(field
-					(name "Price") "6.01")
-				(field
-					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
-				(field
-					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "541-10.0KSCT-ND")
-			)
-			(property
-				(name "MANUFACTURER")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW060310K0FKEAHP")
-			)
-			(property
-				(name "Price")
-				(value "6.01")
-			)
-			(property
-				(name "Vendor Link")
-				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "dnp")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "2460eb3e-408f-48c7-96d0-ead37400d517")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R12")
-			(value "100_0.21W_0603")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
-			(description "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
-			(fields
-				(field
-					(name "Vendor Part Number") "541-100SCT-ND")
-				(field
-					(name "MANUFACTURER") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW0603100RFKEAHP")
-				(field
-					(name "Price") "6.01")
-				(field
-					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
-				(field
-					(name "Description") "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "541-100SCT-ND")
-			)
-			(property
-				(name "MANUFACTURER")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW0603100RFKEAHP")
-			)
-			(property
-				(name "Price")
-				(value "6.01")
-			)
-			(property
-				(name "Vendor Link")
-				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "d49a4daa-d169-48dc-8583-9654b7b955dd")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R13")
-			(value "31.6k_0.21W_0603")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
-			(description "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
-			(fields
-				(field
-					(name "Vendor Part Number") "541-5351-1-ND")
-				(field
-					(name "MANUFACTURER") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW060331K6FKEAC")
-				(field
-					(name "Price") "2.56")
-				(field
-					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
-				(field
-					(name "Description") "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "541-5351-1-ND")
-			)
-			(property
-				(name "MANUFACTURER")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW060331K6FKEAC")
-			)
-			(property
-				(name "Price")
-				(value "2.56")
-			)
-			(property
-				(name "Vendor Link")
-				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "b1066522-8415-489d-921f-dbbc582980c2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R14")
 			(value "10k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -4867,11 +5029,14 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "dnp")
 			)
 			(property
 				(name "ki_keywords")
@@ -4882,10 +5047,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "21f934b6-1fdc-4967-a455-f8b877a22ee6")
+			(tstamps "1fa7f317-29d3-4a31-b9ef-4fe144554f0e")
 			(units
 				(unit
 					(name "A")
@@ -4902,93 +5067,6 @@
 		)
 		(comp
 			(ref "R15")
-			(value "0_0.21W_0603")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
-			(description "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
-			(fields
-				(field
-					(name "Vendor Part Number") "541-0.0SBCT-ND")
-				(field
-					(name "MANUFACTURER") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW06030000Z0EAHP")
-				(field
-					(name "Price") "4.86")
-				(field
-					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
-				(field
-					(name "Description") "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "541-0.0SBCT-ND")
-			)
-			(property
-				(name "MANUFACTURER")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW06030000Z0EAHP")
-			)
-			(property
-				(name "Price")
-				(value "4.86")
-			)
-			(property
-				(name "Vendor Link")
-				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
-			)
-			(property
-				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
-			)
-			(property
-				(name "dnp")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
-			)
-			(tstamps "561f15d7-8428-41c8-83b2-535c6580ef17")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R16")
 			(value "31.6k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
@@ -5038,11 +5116,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5053,10 +5131,94 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "b17c1644-dfb2-466c-99d3-a00c9067e6b7")
+			(tstamps "d4c848a3-ef40-4c6d-a337-dc4dca168c91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "100_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-100SCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW0603100RFKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "100 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-100SCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW0603100RFKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW0603100RFKEAHP/2222245")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "4ca0c4ae-99de-4264-92ec-63a9f41b5550")
 			(units
 				(unit
 					(name "A")
@@ -5073,27 +5235,27 @@
 		)
 		(comp
 			(ref "R17")
-			(value "9.53k_0.21W_0603")
+			(value "52.3k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
-			(description "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(description "52.3 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
 			(fields
 				(field
-					(name "Vendor Part Number") "541-5606-1-ND")
+					(name "Vendor Part Number") "541-5470-1-ND")
 				(field
 					(name "MANUFACTURER") "Vishay Dale")
 				(field
-					(name "Manufacturer Part Number") "CRCW06039K53FKEAC")
+					(name "Manufacturer Part Number") "CRCW060352K3FKEAC")
 				(field
 					(name "Price") "2.56")
 				(field
-					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060352K3FKEAC/7924235")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
 				(field
-					(name "Description") "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+					(name "Description") "52.3 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
 			)
 			(libsource
 				(lib "Device")
@@ -5102,7 +5264,7 @@
 			)
 			(property
 				(name "Vendor Part Number")
-				(value "541-5606-1-ND")
+				(value "541-5470-1-ND")
 			)
 			(property
 				(name "MANUFACTURER")
@@ -5110,7 +5272,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "CRCW06039K53FKEAC")
+				(value "CRCW060352K3FKEAC")
 			)
 			(property
 				(name "Price")
@@ -5118,15 +5280,15 @@
 			)
 			(property
 				(name "Vendor Link")
-				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060352K3FKEAC/7924235")
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5137,10 +5299,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "6d70fa17-62cb-474b-ba9c-bbd1c204a781")
+			(tstamps "c4a387b9-6ca7-4c58-bafc-5cb2cfe8a757")
 			(units
 				(unit
 					(name "A")
@@ -5206,11 +5368,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5221,10 +5383,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "5faeeebc-8817-4600-9320-afcbdc92b897")
+			(tstamps "92f4b838-a193-4ba5-bef8-447662d74c27")
 			(units
 				(unit
 					(name "A")
@@ -5241,6 +5403,513 @@
 		)
 		(comp
 			(ref "R19")
+			(value "0_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-0.0SBCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06030000Z0EAHP")
+				(field
+					(name "Price") "4.86")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-0.0SBCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06030000Z0EAHP")
+			)
+			(property
+				(name "Price")
+				(value "4.86")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06030000Z0EAHP/2222231")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "cb78bd38-dad4-4566-9d0b-1e45308b4e66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "31.6k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5351-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060331K6FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5351-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060331K6FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060331K6FKEAC/7924046")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "5071f43d-e4a7-48f3-8e31-8e01d2cd49a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "7.15k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-CRCW06037K15FKEAHPCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06037K15FKEAHP")
+				(field
+					(name "Price") "6.9")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06037K15FKEAHP/2226271")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-CRCW06037K15FKEAHPCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06037K15FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.9")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06037K15FKEAHP/2226271")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "d54963b0-58d3-4ce3-bf3a-1f39400203d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "9.53k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
+			(description "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-5606-1-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW06039K53FKEAC")
+				(field
+					(name "Price") "2.56")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/28773/crcwce3.pdf")
+				(field
+					(name "Description") "9.53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-5606-1-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW06039K53FKEAC")
+			)
+			(property
+				(name "Price")
+				(value "2.56")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW06039K53FKEAC/7924391")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "ba6444ed-96ea-42ba-ba83-223fbd8917af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "d0d8c942-c728-401d-9392-48c3610c120e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "10k_0.21W_0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(description "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			(fields
+				(field
+					(name "Vendor Part Number") "541-10.0KSCT-ND")
+				(field
+					(name "MANUFACTURER") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEAHP")
+				(field
+					(name "Price") "6.01")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "541-10.0KSCT-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEAHP")
+			)
+			(property
+				(name "Price")
+				(value "6.01")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/vishay-dale/CRCW060310K0FKEAHP/2222263")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "ce28b64e-fd93-45e0-addb-4b7440e1fb1c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
 			(value "11k_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/28773/crcwce3.pdf")
@@ -5290,11 +5959,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5305,10 +5974,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "7c2f7dda-3b23-465d-a9d3-e287c643328d")
+			(tstamps "fd1be9b1-c151-4398-b3b2-daaa727869c4")
 			(units
 				(unit
 					(name "A")
@@ -5324,7 +5993,7 @@
 			)
 		)
 		(comp
-			(ref "R20")
+			(ref "R26")
 			(value "0_0.21W_0603")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
@@ -5374,11 +6043,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "DC_DC_Converter_3v3")
+				(value "DC_DC_Converter_5V")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Subsheets/DC_DC_Converter_3v3.kicad_sch")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5389,10 +6058,10 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/DC_DC_Converter_3v3/")
-				(tstamps "/fea1cda1-5d74-450c-bf04-495c5d5714c3/")
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
 			)
-			(tstamps "9f5d3539-bbd8-4f48-b63f-f75913349de3")
+			(tstamps "04896375-63ae-42c8-b2bc-7076f57e345a")
 			(units
 				(unit
 					(name "A")
@@ -5402,6 +6071,64 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RT2")
+			(value "RT")
+			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_2.0x2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "DC_DC_Converter_5V")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Subsheets/DC_DC_Converter_5V.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/DC_DC_Converter_5V/")
+				(tstamps "/c9134cf9-961a-49e2-b7fe-4b733c12d67f/")
+			)
+			(tstamps "78c24fa8-bf23-443e-a3f1-098d3990887c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -5630,6 +6357,35 @@
 			)
 		)
 		(libpart
+			(lib "Mechanical")
+			(part "MountingHole_Pad_MP")
+			(description "Mounting Hole with connection as pad named MP")
+			(footprints
+				(fp "MountingHole*Pad*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole_Pad_MP")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection as pad named MP")
+			)
+			(pins
+				(pin
+					(num "MP")
+					(name "MP")
+					(type "input")
+				)
+			)
+		)
+		(libpart
 			(lib "TLVM14406RCHR")
 			(part "TLVM14406RCHR")
 			(fields
@@ -5817,6 +6573,10 @@
 			(uri "${KICAD9_SYMBOL_DIR}/Device.kicad_sym")
 		)
 		(library
+			(logical "Mechanical")
+			(uri "${KICAD9_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
 			(logical "TLVM14406RCHR")
 			(uri "${KIPRJMOD}/libraries/symbols/TLVM14406RCHR.kicad_sym")
 		)
@@ -5826,99 +6586,6 @@
 			(code "1")
 			(name "+3V3")
 			(class "Default")
-			(node
-				(ref "3v3")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C17")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C18")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C21")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C23")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "J2")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "J2")
-				(pin "2")
-				(pinfunction "Pin_2_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS3")
-				(pin "18")
-				(pinfunction "VOUT/VOUT2_18")
-				(pintype "output")
-			)
-			(node
-				(ref "PS3")
-				(pin "19")
-				(pinfunction "VOUT/VOUT2__1_19")
-				(pintype "output")
-			)
-			(node
-				(ref "PS3")
-				(pin "20")
-				(pinfunction "VOUT/VOUT1_20")
-				(pintype "output")
-			)
-			(node
-				(ref "PS3")
-				(pin "21")
-				(pinfunction "VOUT/VOUT1__1_21")
-				(pintype "output")
-			)
-			(node
-				(ref "R12")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R18")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R20")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R8")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "2")
-			(name "+5V")
-			(class "Default")
-			(node
-				(ref "5V1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
 			(node
 				(ref "C11")
 				(pin "1")
@@ -5940,15 +6607,21 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J3")
+				(ref "J2")
 				(pin "1")
 				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
-				(ref "J3")
+				(ref "J2")
 				(pin "2")
 				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Out_TP1")
+				(pin "1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 			(node
@@ -5981,7 +6654,94 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R2")
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Out_TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "18")
+				(pinfunction "VOUT/VOUT2_18")
+				(pintype "output")
+			)
+			(node
+				(ref "PS3")
+				(pin "19")
+				(pinfunction "VOUT/VOUT2__1_19")
+				(pintype "output")
+			)
+			(node
+				(ref "PS3")
+				(pin "20")
+				(pinfunction "VOUT/VOUT1_20")
+				(pintype "output")
+			)
+			(node
+				(ref "PS3")
+				(pin "21")
+				(pinfunction "VOUT/VOUT1__1_21")
+				(pintype "output")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -6068,182 +6828,6 @@
 			(name "/DC_DC_Converter_3v3/COMP")
 			(class "Default")
 			(node
-				(ref "C22")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS3")
-				(pin "9")
-				(pinfunction "COMP/VOSNS2_9")
-				(pintype "input")
-			)
-			(node
-				(ref "R19")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "5")
-			(name "/DC_DC_Converter_3v3/CONFIG")
-			(class "Default")
-			(node
-				(ref "PS3")
-				(pin "11")
-				(pinfunction "CONFIG_11")
-				(pintype "input")
-			)
-			(node
-				(ref "R17")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "6")
-			(name "/DC_DC_Converter_3v3/Enable")
-			(class "Default")
-			(node
-				(ref "PS3")
-				(pin "10")
-				(pinfunction "EN2_10")
-				(pintype "input")
-			)
-			(node
-				(ref "PS3")
-				(pin "2")
-				(pinfunction "EN1_2")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "7")
-			(name "/DC_DC_Converter_3v3/FB")
-			(class "Default")
-			(node
-				(ref "3v3_FB1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C15")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS3")
-				(pin "4")
-				(pinfunction "FB1_4")
-				(pintype "input")
-			)
-			(node
-				(ref "R11")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R13")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R14")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R15")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "8")
-			(name "/DC_DC_Converter_3v3/PG")
-			(class "Default")
-			(node
-				(ref "PS3")
-				(pin "1")
-				(pinfunction "PG1_1")
-				(pintype "output")
-			)
-			(node
-				(ref "R18")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "9")
-			(name "/DC_DC_Converter_3v3/RT")
-			(class "Default")
-			(node
-				(ref "3v3_RT1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS3")
-				(pin "7")
-				(pinfunction "RT_7")
-				(pintype "input")
-			)
-			(node
-				(ref "R16")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "10")
-			(name "/DC_DC_Converter_3v3/Vcc")
-			(class "Default")
-			(node
-				(ref "C20")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS3")
-				(pin "5")
-				(pinfunction "VCC_5")
-				(pintype "power_in")
-			)
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "11")
-			(name "/DC_DC_Converter_3v3/Vosns")
-			(class "Default")
-			(node
-				(ref "C24")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS3")
-				(pin "3")
-				(pinfunction "BIAS_VOSNS1_3")
-				(pintype "input")
-			)
-			(node
-				(ref "R20")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "12")
-			(name "/DC_DC_Converter_5V/COMP")
-			(class "Default")
-			(node
 				(ref "C10")
 				(pin "1")
 				(pintype "passive")
@@ -6255,14 +6839,14 @@
 				(pintype "input")
 			)
 			(node
-				(ref "R9")
+				(ref "R12")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "13")
-			(name "/DC_DC_Converter_5V/CONFIG")
+			(code "5")
+			(name "/DC_DC_Converter_3v3/CONFIG")
 			(class "Default")
 			(node
 				(ref "PS2")
@@ -6271,14 +6855,14 @@
 				(pintype "input")
 			)
 			(node
-				(ref "R7")
+				(ref "R9")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "14")
-			(name "/DC_DC_Converter_5V/Enable")
+			(code "6")
+			(name "/DC_DC_Converter_3v3/Enable")
 			(class "Default")
 			(node
 				(ref "PS2")
@@ -6294,18 +6878,18 @@
 			)
 		)
 		(net
-			(code "15")
-			(name "/DC_DC_Converter_5V/FB")
+			(code "7")
+			(name "/DC_DC_Converter_3v3/FB")
 			(class "Default")
-			(node
-				(ref "5V_FB1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
 			(node
 				(ref "C3")
 				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB1")
+				(pin "1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 			(node
@@ -6320,52 +6904,19 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R3")
+				(ref "R2")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "R4")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "R5")
 				(pin "1")
 				(pintype "passive")
-			)
-		)
-		(net
-			(code "16")
-			(name "/DC_DC_Converter_5V/PG")
-			(class "Default")
-			(node
-				(ref "PS2")
-				(pin "1")
-				(pinfunction "PG1_1")
-				(pintype "output")
-			)
-			(node
-				(ref "R8")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "17")
-			(name "/DC_DC_Converter_5V/RT")
-			(class "Default")
-			(node
-				(ref "5V_RT1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "PS2")
-				(pin "7")
-				(pinfunction "RT_7")
-				(pintype "input")
 			)
 			(node
 				(ref "R6")
@@ -6374,8 +6925,56 @@
 			)
 		)
 		(net
-			(code "18")
-			(name "/DC_DC_Converter_5V/Vcc")
+			(code "8")
+			(name "/DC_DC_Converter_3v3/PG")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "1")
+				(pinfunction "PG1_1")
+				(pintype "output")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/DC_DC_Converter_3v3/RT")
+			(class "Default")
+			(node
+				(ref "PS2")
+				(pin "7")
+				(pinfunction "RT_7")
+				(pintype "input")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RT1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/DC_DC_Converter_3v3/Vcc")
 			(class "Default")
 			(node
 				(ref "C8")
@@ -6395,8 +6994,8 @@
 			)
 		)
 		(net
-			(code "19")
-			(name "/DC_DC_Converter_5V/Vosns")
+			(code "11")
+			(name "/DC_DC_Converter_3v3/Vosns")
 			(class "Default")
 			(node
 				(ref "C12")
@@ -6410,7 +7009,198 @@
 				(pintype "input")
 			)
 			(node
-				(ref "R10")
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/DC_DC_Converter_5V/COMP")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "9")
+				(pinfunction "COMP/VOSNS2_9")
+				(pintype "input")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/DC_DC_Converter_5V/CONFIG")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "11")
+				(pinfunction "CONFIG_11")
+				(pintype "input")
+			)
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/DC_DC_Converter_5V/Enable")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "10")
+				(pinfunction "EN2_10")
+				(pintype "input")
+			)
+			(node
+				(ref "PS3")
+				(pin "2")
+				(pinfunction "EN1_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/DC_DC_Converter_5V/FB")
+			(class "Default")
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "4")
+				(pinfunction "FB1_4")
+				(pintype "input")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/DC_DC_Converter_5V/PG")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "1")
+				(pinfunction "PG1_1")
+				(pintype "output")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/DC_DC_Converter_5V/RT")
+			(class "Default")
+			(node
+				(ref "PS3")
+				(pin "7")
+				(pinfunction "RT_7")
+				(pintype "input")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RT2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/DC_DC_Converter_5V/Vcc")
+			(class "Default")
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/DC_DC_Converter_5V/Vosns")
+			(class "Default")
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "PS3")
+				(pin "3")
+				(pinfunction "BIAS_VOSNS1_3")
+				(pintype "input")
+			)
+			(node
+				(ref "R26")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -6612,6 +7402,30 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "H1")
+				(pin "MP")
+				(pinfunction "MP_MP")
+				(pintype "input")
+			)
+			(node
+				(ref "H2")
+				(pin "MP")
+				(pinfunction "MP_MP")
+				(pintype "input")
+			)
+			(node
+				(ref "H3")
+				(pin "MP")
+				(pinfunction "MP_MP")
+				(pintype "input")
+			)
+			(node
+				(ref "H4")
+				(pin "MP")
+				(pinfunction "MP_MP")
+				(pintype "input")
+			)
+			(node
 				(ref "J2")
 				(pin "3")
 				(pinfunction "Pin_3_3")
@@ -6702,27 +7516,37 @@
 				(pintype "power_in")
 			)
 			(node
-				(ref "R14")
+				(ref "R11")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R15")
+				(ref "R18")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R16")
+				(ref "R19")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R17")
+				(ref "R20")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R4")
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -6741,6 +7565,16 @@
 				(pin "2")
 				(pintype "passive")
 			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
 		)
 		(net
 			(code "23")
@@ -6753,11 +7587,16 @@
 			)
 			(node
 				(ref "R2")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -6772,7 +7611,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R9")
+				(ref "R12")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -6787,12 +7626,17 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R12")
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R13")
+				(ref "R17")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -6807,7 +7651,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R19")
+				(ref "R25")
 				(pin "2")
 				(pintype "passive")
 			)
