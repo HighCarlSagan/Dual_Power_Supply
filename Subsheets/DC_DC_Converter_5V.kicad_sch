@@ -4633,7 +4633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 230.8352 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4644,7 +4644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf"
 			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4655,7 +4655,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4677,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603C473K3RACTU"
+		(property "Manufacturer Part Number" "CL10B473KO8NNNC"
 			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4710,7 +4710,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C0603C473K3RACTUCT-ND"
+		(property "Vendor Part Number" "1276-2079-1-ND"
 			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8231,7 +8231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 65.7352 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8253,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +8275,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C0603C473K3RACTU"
+		(property "Manufacturer Part Number" "CL10B473KO8NNNC"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8308,7 +8308,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "399-C0603C473K3RACTUCT-ND"
+		(property "Vendor Part Number" "1276-2079-1-ND"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
