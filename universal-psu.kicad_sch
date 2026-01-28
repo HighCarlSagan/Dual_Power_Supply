@@ -1285,7 +1285,7 @@
 	)
 	(rectangle
 		(start 111.76 48.26)
-		(end 163.83 95.25)
+		(end 194.31 95.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -1398,6 +1398,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cf53e2e-1184-4541-846a-9e79834ab4ab")
+	)
+	(junction
+		(at 165.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354f3edb-b09d-44b0-8b18-a5a408213738")
+	)
+	(junction
+		(at 165.1 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47587292-aa19-4f95-b9d3-2262263526f8")
 	)
 	(junction
 		(at 78.74 91.44)
@@ -1597,6 +1609,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 72.39) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af876be-9248-42e5-b3a1-127f2a3317da")
+	)
+	(wire
+		(pts
 			(xy 67.31 26.67) (xy 73.66 26.67)
 		)
 		(stroke
@@ -1614,6 +1636,16 @@
 			(type default)
 		)
 		(uuid "47fed940-de6b-4db8-8483-f2b0d2a8b19f")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea3db03-181c-4ff0-89b3-9d29aa08702c")
 	)
 	(wire
 		(pts
@@ -1707,6 +1739,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 74.93) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b0729e-4065-47d3-9b30-a4ebf8a26c60")
+	)
+	(wire
+		(pts
 			(xy 121.92 64.77) (xy 121.92 62.23)
 		)
 		(stroke
@@ -1714,6 +1756,16 @@
 			(type default)
 		)
 		(uuid "7e8e6f3c-c81a-4fb7-b833-7961397266a9")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 165.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aefb65a-6702-422d-b396-d8e453e7b1d3")
 	)
 	(wire
 		(pts
@@ -1737,6 +1789,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 69.85) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97936043-c92d-40c5-863d-821bed02dc0b")
+	)
+	(wire
+		(pts
 			(xy 45.72 91.44) (xy 62.23 91.44)
 		)
 		(stroke
@@ -1757,6 +1819,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 69.85) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ccc697-3542-4578-9dbc-ad8aad4669fe")
+	)
+	(wire
+		(pts
 			(xy 77.47 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -1764,6 +1836,16 @@
 			(type default)
 		)
 		(uuid "afb5fdea-57cb-400a-97bc-7b785fdf7282")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c988ad-0a6c-4ccc-9b8e-62c354b05267")
 	)
 	(wire
 		(pts
@@ -1834,6 +1916,16 @@
 			(type default)
 		)
 		(uuid "d3312ffd-21a8-477a-9f9c-fd343add63fa")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d387de73-f2a6-4ec3-809f-f9d0081f0ebb")
 	)
 	(wire
 		(pts
@@ -3179,6 +3271,224 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 180.34 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76af08de-d817-424b-88d6-6541476e612f")
+		(property "Reference" "J4"
+			(at 182.88 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 168.91 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "277-1260-ND"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1715048"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "257"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e23c0fd3-1296-499d-9ca9-2126179e0687")
+		)
+		(pin "4"
+			(uuid "d55a3c93-4076-4291-a7de-c2bf44990e05")
+		)
+		(pin "2"
+			(uuid "37d70e7f-308a-43d0-84b3-4b45c59ef1cf")
+		)
+		(pin "1"
+			(uuid "337c4818-4adc-4590-8b58-7ac38be97221")
+		)
+		(instances
+			(project "universal-psu"
+				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772bb0df-008f-425a-aa3c-392ed513028f")
+		(property "Reference" "#PWR041"
+			(at 165.1 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82701d88-3684-4529-aa83-9d52beae12dd")
+		)
+		(instances
+			(project "universal-psu"
+				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
 		(at 95.25 86.36 0)
 		(unit 1)
@@ -3251,6 +3561,83 @@
 			(project "universal-psu"
 				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 165.1 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a17ed6d7-a90b-4b23-a9b1-7025f5f17994")
+		(property "Reference" "#PWR042"
+			(at 165.1 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 165.1 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48fe85c5-c8e9-4fb5-a585-282e276d1135")
+		)
+		(instances
+			(project "universal-psu"
+				(path "/08cd4a39-b122-4f15-a276-9889e34f331e"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
