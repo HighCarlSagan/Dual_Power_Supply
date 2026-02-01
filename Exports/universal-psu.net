@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/carl/Projects/Hardware/universal-psu/universal-psu.kicad_sch")
-		(date "2025-12-26T02:11:21+0530")
+		(date "2026-02-01T16:38:43+0530")
 		(tool "Eeschema 9.99.0-4546-gb76221958b")
 		(sheet
 			(number "1")
@@ -637,6 +637,96 @@
 			)
 		)
 		(comp
+			(ref "J4")
+			(value "Screw_Terminal_01x04")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+			(datasheet "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+			(description "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			(fields
+				(field
+					(name "Vendor Part Number") "277-1260-ND")
+				(field
+					(name "MANUFACTURER") "Phoenix Contact")
+				(field
+					(name "Manufacturer Part Number") "1715048")
+				(field
+					(name "Price") "257")
+				(field
+					(name "Vendor Link") "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+				(field
+					(name "Datasheet") "https://www.phoenixcontact.com/us/products/1715048/pdfhttps://www.phoenixcontact.com/us/products/1715048/pdf")
+				(field
+					(name "Description") "4 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x04")
+				(description "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "277-1260-ND")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Phoenix Contact")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "1715048")
+			)
+			(property
+				(name "Price")
+				(value "257")
+			)
+			(property
+				(name "Vendor Link")
+				(value "https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628https://www.digikey.in/en/products/detail/phoenix-contact/1715048/260628")
+			)
+			(property
+				(name "Sheetname")
+				(value "universal-psu")
+			)
+			(property
+				(name "Sheetfile")
+				(value "universal-psu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76af08de-d817-424b-88d6-6541476e612f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "PS1")
 			(value "IRM-60-15")
 			(footprint "Converter_ACDC:Converter_ACDC_MeanWell_IRM-60-xx_THT")
@@ -955,26 +1045,26 @@
 		(comp
 			(ref "C3")
 			(value "47n_16V_0603")
-			(footprint "Capacitor_SMD:C_0201_0603Metric")
-			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
-			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
+			(description "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			(fields
 				(field
 					(name "MANUFACTURER") "KEMET")
 				(field
-					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+					(name "Manufacturer Part Number") "CL10B473KO8NNNC")
 				(field
 					(name "Price") "4.78")
 				(field
 					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
 				(field
-					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+					(name "Vendor Part Number") "1276-2079-1-ND")
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
-					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
 				(field
-					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+					(name "Description") "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			)
 			(libsource
 				(lib "Device")
@@ -987,7 +1077,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "C0603C473K3RACTU")
+				(value "CL10B473KO8NNNC")
 			)
 			(property
 				(name "Price")
@@ -999,7 +1089,7 @@
 			)
 			(property
 				(name "Vendor Part Number")
-				(value "399-C0603C473K3RACTUCT-ND")
+				(value "1276-2079-1-ND")
 			)
 			(property
 				(name "Sheetname")
@@ -1543,26 +1633,26 @@
 		(comp
 			(ref "C10")
 			(value "47n_16V_0603")
-			(footprint "Capacitor_SMD:C_0201_0603Metric")
-			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
-			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
+			(description "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			(fields
 				(field
 					(name "MANUFACTURER") "KEMET")
 				(field
-					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+					(name "Manufacturer Part Number") "CL10B473KO8NNNC")
 				(field
 					(name "Price") "4.78")
 				(field
 					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
 				(field
-					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+					(name "Vendor Part Number") "1276-2079-1-ND")
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
-					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
 				(field
-					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+					(name "Description") "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			)
 			(libsource
 				(lib "Device")
@@ -1575,7 +1665,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "C0603C473K3RACTU")
+				(value "CL10B473KO8NNNC")
 			)
 			(property
 				(name "Price")
@@ -1587,7 +1677,7 @@
 			)
 			(property
 				(name "Vendor Part Number")
-				(value "399-C0603C473K3RACTUCT-ND")
+				(value "1276-2079-1-ND")
 			)
 			(property
 				(name "Sheetname")
@@ -3659,26 +3749,26 @@
 		(comp
 			(ref "C15")
 			(value "47n_16V_0603")
-			(footprint "Capacitor_SMD:C_0201_0603Metric")
-			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
-			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
+			(description "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			(fields
 				(field
 					(name "MANUFACTURER") "KEMET")
 				(field
-					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+					(name "Manufacturer Part Number") "CL10B473KO8NNNC")
 				(field
 					(name "Price") "4.78")
 				(field
 					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
 				(field
-					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+					(name "Vendor Part Number") "1276-2079-1-ND")
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
-					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
 				(field
-					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+					(name "Description") "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			)
 			(libsource
 				(lib "Device")
@@ -3691,7 +3781,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "C0603C473K3RACTU")
+				(value "CL10B473KO8NNNC")
 			)
 			(property
 				(name "Price")
@@ -3703,7 +3793,7 @@
 			)
 			(property
 				(name "Vendor Part Number")
-				(value "399-C0603C473K3RACTUCT-ND")
+				(value "1276-2079-1-ND")
 			)
 			(property
 				(name "Sheetname")
@@ -4247,26 +4337,26 @@
 		(comp
 			(ref "C22")
 			(value "47n_16V_0603")
-			(footprint "Capacitor_SMD:C_0201_0603Metric")
-			(datasheet "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
-			(description "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
+			(description "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			(fields
 				(field
 					(name "MANUFACTURER") "KEMET")
 				(field
-					(name "Manufacturer Part Number") "C0603C473K3RACTU")
+					(name "Manufacturer Part Number") "CL10B473KO8NNNC")
 				(field
 					(name "Price") "4.78")
 				(field
 					(name "Vendor Link") "https://www.digikey.in/en/products/detail/kemet/C0603C473K3RACTU/2200866")
 				(field
-					(name "Vendor Part Number") "399-C0603C473K3RACTUCT-ND")
+					(name "Vendor Part Number") "1276-2079-1-ND")
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0201_0603Metric")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
-					(name "Datasheet") "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B473KO8NNNC_Spec.pdf")
 				(field
-					(name "Description") "0.047 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)")
+					(name "Description") "0.047 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
 			)
 			(libsource
 				(lib "Device")
@@ -4279,7 +4369,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "C0603C473K3RACTU")
+				(value "CL10B473KO8NNNC")
 			)
 			(property
 				(name "Price")
@@ -4291,7 +4381,7 @@
 			)
 			(property
 				(name "Vendor Part Number")
-				(value "399-C0603C473K3RACTUCT-ND")
+				(value "1276-2079-1-ND")
 			)
 			(property
 				(name "Sheetname")
@@ -6793,6 +6883,18 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "PS1")
 				(pin "3")
 				(pinfunction "+Vout_3")
@@ -7445,6 +7547,18 @@
 			)
 			(node
 				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
 				(pin "4")
 				(pinfunction "Pin_4_4")
 				(pintype "passive")
