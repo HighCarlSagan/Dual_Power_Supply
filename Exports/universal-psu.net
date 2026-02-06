@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/carl/Projects/Hardware/universal-psu/universal-psu.kicad_sch")
-		(date "2026-02-01T16:38:43+0530")
+		(date "2026-02-06T21:25:55+0530")
 		(tool "Eeschema 9.99.0-4546-gb76221958b")
 		(sheet
 			(number "1")
