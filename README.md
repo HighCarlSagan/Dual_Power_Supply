@@ -16,7 +16,7 @@ A compact mains-input dual-output bench supply built around an isolated AC-DC br
 
 ## Why I Built This
 
-I had a drawer full of mismatched wall-warts — one for each hobby project, each a different voltage, each with the polarity barrel I never have on hand. I wanted a single, always-on bench supply that I could leave plugged in and tap into for anything I'm prototyping: ESP32s, Pis, sensor breakouts, the Telegram-controlled lights board, whatever.
+I wanted a single, always-on bench supply that I could leave plugged in and tap into for anything I'm prototyping: ESP32s, Pis, sensor breakouts, the Telegram-controlled lights board, whatever.
 
 This was also a deliberate learning project on two fronts:
 
@@ -195,7 +195,7 @@ universal-psu/
 
 ## Future Options
 
-- **Expose 15 V intermediate as a third output** — already present internally, just needs a connector. Useful for op-amp circuits, fan drives, or any project that wants a higher rail.
+- **Expose 15 V intermediate as a third output** — already present internally, just needs a connector and trace fanned out. Useful for op-amp circuits, fan drives, or any project that wants a higher rail.
 - **Output protection** — eFuse or polyfuse + TVS on each output rail.
 - **Per-rail status LEDs** — power-good indicators tied to the TLVM14406 PG output.
 - **3D-printed enclosure** — open-frame is fine for the bench, but a printed case would make this safer to leave plugged in long-term.
@@ -210,7 +210,7 @@ Honest list of what V1 missed that V2 should fix:
 2. **Status LEDs** — no visible indication that either rail is alive.
 3. **Mounting hole placement** — corner holes are too close to the board edge, making the board awkward to mount in any standard enclosure. V2 should use rounded corners and proper standoff offsets.
 4. **Silkscreen labeling** — connector pin functions need clearer markings on the board face.
-5. **15 V tap connector** — already designed in, just needs a header.
+5. **15 V tap connector** — needs a header.
 
 ---
 
@@ -262,7 +262,7 @@ See [LICENSE](LICENSE) for the full text.
 
 ## Used By
 
-This board powers the following projects in the same author's portfolio:
+This board powers the following projects in my portfolio:
 - [PC_and_Light_Controller](https://github.com/HighCarlSagan/PC_and_Light_Controller) — Telegram-controlled UPS button + LED switching
 
 ---
