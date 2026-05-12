@@ -269,7 +269,7 @@ This board powers the following projects in my portfolio:
 
 ## Author
 
-**Mak (Mayank Shrivastava)**
-[github.com/HighCarlSagan](https://github.com/HighCarlSagan)
+**Mayank S (HighCarlSagan)** — [GitHub @HighCarlSagan](https://github.com/HighCarlSagan) · [highcarlsagan.dev](https://highcarlsagan.dev)
+
 
 Designed: December 2025 · Boards back: April 2026 · Bringup: in progress
